@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.azure.communication.calling": {
+      "tarball": {
+        "hash": "06b560b7a5a8",
+        "mtime": 1717857485863,
+        "size": 98628666,
+        "localPath": "C:\\Users\\User\\Desktop\\NTU Notes\\sc2006\\XR-Team-Reality\\TestingLens\\TestingLens\\Packages\\MixedReality\\com.azure.communication.calling-1.0.0-beta.3.tgz"
+      }
+    },
+    "com.microsoft.azure.object-anchors.runtime": {
+      "tarball": {
+        "hash": "d31c8fc15289",
+        "mtime": 1717841759485,
+        "size": 11705284,
+        "localPath": "C:\\Users\\User\\Desktop\\NTU Notes\\sc2006\\XR-Team-Reality\\TestingLens\\TestingLens\\Packages\\MixedReality\\com.microsoft.azure.object-anchors.runtime-0.25.0.tgz"
+      }
+    },
+    "com.microsoft.azure.remote-rendering": {
+      "tarball": {
+        "hash": "7799f1bc948a",
+        "mtime": 1717857486066,
+        "size": 43114613,
+        "localPath": "C:\\Users\\User\\Desktop\\NTU Notes\\sc2006\\XR-Team-Reality\\TestingLens\\TestingLens\\Packages\\MixedReality\\com.microsoft.azure.remote-rendering-1.2.29.tgz"
+      }
+    },
+    "com.microsoft.azure.spatial-anchors-sdk.core": {
+      "tarball": {
+        "hash": "7b2d5f79f09a",
+        "mtime": 1717844158416,
+        "size": 86357,
+        "localPath": "C:\\Users\\User\\Desktop\\NTU Notes\\sc2006\\XR-Team-Reality\\TestingLens\\TestingLens\\Packages\\MixedReality\\com.microsoft.azure.spatial-anchors-sdk.core-2.14.1.tgz"
+      }
+    },
+    "com.microsoft.azure.spatial-anchors-sdk.windows": {
+      "tarball": {
+        "hash": "c59f29caea85",
+        "mtime": 1717844167054,
+        "size": 18379151,
+        "localPath": "C:\\Users\\User\\Desktop\\NTU Notes\\sc2006\\XR-Team-Reality\\TestingLens\\TestingLens\\Packages\\MixedReality\\com.microsoft.azure.spatial-anchors-sdk.windows-2.14.1.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.openxr": {
+      "tarball": {
+        "hash": "36f977845fc0",
+        "mtime": 1717743719286,
+        "size": 10562125,
+        "localPath": "C:\\Users\\User\\Desktop\\NTU Notes\\sc2006\\XR-Team-Reality\\TestingLens\\TestingLens\\Packages\\MixedReality\\com.microsoft.mixedreality.openxr-1.10.1.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.foundation": {
+      "tarball": {
+        "hash": "f2323a9b7aec",
+        "mtime": 1712562017258,
+        "size": 11691469,
+        "localPath": "C:\\Users\\User\\Desktop\\NTU Notes\\sc2006\\XR-Team-Reality\\TestingLens\\TestingLens\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.foundation-2.8.3.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.standardassets": {
+      "tarball": {
+        "hash": "aab256284dc6",
+        "mtime": 1712562016414,
+        "size": 5328617,
+        "localPath": "C:\\Users\\User\\Desktop\\NTU Notes\\sc2006\\XR-Team-Reality\\TestingLens\\TestingLens\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.standardassets-2.8.3.tgz"
+      }
+    }
+  }
+}

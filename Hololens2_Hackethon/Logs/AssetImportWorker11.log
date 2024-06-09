@@ -1,0 +1,1095 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/User/Desktop/NTU Notes/sc2006/XR-Team-Reality/Hololens2_Hackethon
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+59885
+Successfully changed project path to: C:/Users/User/Desktop/NTU Notes/sc2006/XR-Team-Reality/Hololens2_Hackethon
+C:/Users/User/Desktop/NTU Notes/sc2006/XR-Team-Reality/Hololens2_Hackethon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28404] Host "[IP] 192.168.0.175 [Port] 0 [Flags] 2 [Guid] 1794963052 [EditorId] 1794963052 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EIFGQAQP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28404] Host "[IP] 192.168.0.175 [Port] 0 [Flags] 2 [Guid] 1794963052 [EditorId] 1794963052 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EIFGQAQP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 43.14 ms, found 23 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/NTU Notes/sc2006/XR-Team-Reality/Hololens2_Hackethon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.3168
+Shader 'Mixed Reality Toolkit/HandTriangles': fallback shader 'Mixed Reality Toolkit/Standard' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008845 seconds.
+- Loaded All Assemblies, in  0.415 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.331 seconds
+Domain Reload Profiling: 744ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (331ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (264ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.869 seconds
+Refreshing native plugins compatible for Editor in 30.50 ms, found 23 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+A link.xml file was created in Assets/MixedRealityToolkit.Generated.
+This file is used to control preservation of MRTK code during linking. It is recommended to add link.xml (and link.xml.meta) to source control.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.MixedRealityToolkitPreserveSettings:EnsureLinkXml () (at ./Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@f2323a9b7aec/Core/Utilities/Editor/Setup/MixedRealityToolkitPreserveSettings.cs:109)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.EditorProjectUtilities:.cctor () (at ./Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@f2323a9b7aec/Core/Utilities/Editor/EditorProjectUtilities.cs:34)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@f2323a9b7aec/Core/Utilities/Editor/Setup/MixedRealityToolkitPreserveSettings.cs Line: 109)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.232 seconds
+Domain Reload Profiling: 2084ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (630ms)
+		LoadAssemblies (435ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (195ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1233ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1045ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (801ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'Mixed Reality Toolkit/HandTriangles': fallback shader 'Mixed Reality Toolkit/Standard' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 38.84 ms, found 23 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 135 unused Assets / (1.3 MB). Loaded Objects now: 7351.
+Memory consumption went from 228.8 MB to 227.5 MB.
+Total: 6.014400 ms (FindLiveObjects: 0.643400 ms CreateObjectMapping: 0.777200 ms MarkObjects: 3.832300 ms  DeleteObjects: 0.759700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/QuaternionExtensions.cs: 86183419535e375187b30a3762578554 -> 5c14ff43249a1d5641e671d2bc53755a
+  custom:scripting/monoscript/fileName/HoverLightInspector.cs: d14380a559a9f79c106a294cc7fa3a38 -> 53f39273d0e5a8199025cae294c2acfd
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ExperimentalAttribute.cs: e415ab88fb98af7d4dff0aa0b1f496d9 -> 0bd25c48cb51c4f75648f4ba1e4eabee
+  custom:scripting/monoscript/fileName/BezierInertia.cs: e5712c82fbb1e9ba71bc4a9e03ea812f -> 5d7fa66a3e1ec973f6629e090c158016
+  custom:scripting/monoscript/fileName/TransformFlags.cs: 03eabd8c82b6769dc6bd24d92b2a6ab2 -> 508b344044511baf13ad87374577a006
+  custom:scripting/monoscript/fileName/ClippingPlaneInspector.cs: 45a7add4f510cd046b0b30641f27de23 -> 9dee9f6db415dc349df436df6dedfda0
+  custom:scripting/monoscript/fileName/ClippingSphere.cs: 7fd34c4bcdfa7f65d8314e0f01039c78 -> 302719cfe652ace4e93a44f96aef37ab
+  custom:scripting/monoscript/fileName/ClippingPrimitive.cs: 13d51cdc3270073b81ba5363ca185635 -> b6127e2b47488793a04815f912dbcd6e
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/MeshOutlineHierarchy.cs: 2ce8322dea0e91fd617779b8a8a7540c -> b86ea887c8b83d26a4bec24dd0688b3b
+  custom:scripting/monoscript/fileName/BaseMixedRealityLineDataProvider.cs: e61d06a055f2fc4182720fa5543406a7 -> 4063184f73b574796ef28a0c1800d348
+  custom:scripting/monoscript/fileName/ClippingPlane.cs: 8eb4b4d560d9425ec6f57d2e905b862a -> 2d4b6fa9a617047490242cf23fb385b2
+  custom:scripting/monoscript/fileName/LineUtility.cs: 2950056bc3e444ed946814632d04d15d -> 4687cfa70a7123b8e4a8ec87cd43f644
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TESTINGHUDDescriptor.cs: 4125c2aba1f92984a90a01e3c1a25f2c -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AxisFlags.cs: 0551634ca21e3ece89e13ee1c46d0c14 -> ad502e67950ae571ba1542451db00eb1
+  custom:scripting/monoscript/fileName/ProximityLight.cs: 003ab9a4575b13ac754725b95559f83a -> b00108d3e04da9c2c2f253ae8b4ea52b
+  custom:scripting/monoscript/fileName/TransformExtensions.cs: dd28493ea1efaf61cb755e5e81239658 -> 78dd502761d52541a67b77382f331448
+  custom:scripting/monoscript/fileName/ComponentExtensions.cs: a670258885319bbb438f8e1fa826cc87 -> b7cb97fe121fd89f9c4cabc7cf3c18f6
+  custom:scripting/monoscript/fileName/MeshOutline.cs: bf32348361c5a16d222c2efe7e5cf49b -> 1a5665d475607f7318b7b75842386499
+  custom:scripting/monoscript/fileName/ScaleMeshEffect.cs: f9893317da31076dc8a266898828b553 -> d2bd52987e633b5d92d3a954b831bf2c
+  custom:scripting/monoscript/fileName/Hololens2_HUDTESTINGHUD.cs: fa52a097e048f6cb1859df50fdd5d550 -> 
+  custom:scripting/monoscript/fileName/SerializableDictionary.cs: e0a51e584485b56d9971a06b4f70ecb4 -> 0d9d5aa017e75851792d7a3dc47e0142
+  custom:scripting/monoscript/fileName/ITESTINGHUD.cs: 1a0fb88002f2e0b80b7fc0ab18171527 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/HoverLight.cs: 8b6f4b3a1c6baf6399dfada95c7c4e72 -> b2621d7ddfea8c979af60885ee05be48
+  custom:scripting/monoscript/fileName/XRSubsystemHelpers.cs: 71aac185ebc3263c472663eadd14fa5b -> fee80b121e3974779e3dd3f0fbddb035
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/RayStep.cs: db5f0f4cae7582055bd65dd4145c5292 -> 0670bc4f22386b4bf348d372c3c1d507
+  custom:scripting/monoscript/fileName/HandRay.cs: 09b73b3994edf6fc554c2b6501d1e85e -> d79cb005acff49f7496e0f5fde0bc455
+  custom:scripting/monoscript/fileName/SystemType.cs: d75b37844b079665c8fbbca0b6792fdb -> ab428ceef87b3272fae11c8e6a33d193
+  custom:scripting/monoscript/fileName/ProximityLightInspector.cs: 74e23ad8f7db5406fae69f78f3f9e0d2 -> 2ba2a3d5d4ee866832ac9fd4f7d361c1
+  custom:scripting/monoscript/fileName/EditorProjectUtilities.cs: 49de1b210f0ff9bd894319838ef94c61 -> bbbabdd5a42014f8311cba593bb803f6
+  custom:scripting/monoscript/fileName/MixedRealityTransform.cs: 1396beea2e3a39fb41f2b0e26c774b11 -> 7968823487e6daff62e5cd56ea446bf9
+  custom:scripting/monoscript/fileName/StringBuilderExtensions.cs: 14a3bca92eed52569c50d58813f48a9b -> 5513a21cd0f8f2d994a680e467f02040
+  custom:scripting/monoscript/fileName/BezierDataProvider.cs: 15e426112e5eb2cd8be8b4e57749cab8 -> 6eedf91c8aa64ef2d026155346beb4de
+  custom:scripting/monoscript/fileName/SystemTypeAttribute.cs: 379a5998f0a3ea2d53c2f47e54f9407e -> 57447c3cdbfdcd297354886d6aaacc8a
+  custom:scripting/monoscript/fileName/PlatformUtility.cs: 6727dfb878fd28cfcf38a00adece7ace -> fd39c087d66303379ea89d96ff23a533
+  custom:scripting/monoscript/fileName/InspectorUIUtility.cs: d6d955ec0b53712b729402559601d2ca -> baa184d75d0b49b582c14563c4e60a13
+  custom:scripting/monoscript/fileName/ClippingBoxInspector.cs: e3d60fe5c3b741ddf7fe5e51fd2e9d63 -> 9438a7ab198089ef53a8fcfd277197c0
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EnumerableExtensions.cs: c1d805d96e66098f8ec44976bd782703 -> 88181880addbf661d7bd6e1f15c822ae
+  custom:scripting/monoscript/fileName/MeshSmoother.cs: 9001fa44f10cb6bf0cf03dd53b67d8d6 -> 970d0042d5a8531a4e55b5867f2789c5
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TypeExtensions.cs: 319864e94ea369a30c27bc06153a149f -> 8b17e29dc5a3a0cd23c3e1f859d68565
+  custom:scripting/monoscript/fileName/ClippingPrimitiveInspector.cs: df77cef277cfbb41343e63946cc5412c -> 2d27d5ec54e789399be01bef04f60d71
+  custom:scripting/monoscript/fileName/Vector3Smoothed.cs: dda43ca047fdc2b23a8602922d6286e9 -> 438fa8e3996f72707a82af374652e8dd
+  custom:scripting/monoscript/fileName/CameraEventRouter.cs: 9aa0f645920e980bdc520fbfa46a2be2 -> ae1bdcba0b72c48fddf537bb910c90d3
+  custom:scripting/monoscript/fileName/StabilizedRay.cs: d37318d21f8cdf6adfdbe9e98a0a7d4f -> b1655cf0254575aca76e85128516aa0b
+  custom:scripting/monoscript/fileName/GameObjectExtensions.cs: 69f61e5589fab1c2d8fd26252a99a305 -> 5478001e1ed477a699c92d53328068b1
+  custom:scripting/monoscript/fileName/TESTINGHUD.cs: bfc25aafdfa7ca7472e44ca2db3e2c71 -> 
+  custom:scripting/monoscript/fileName/StringExtensions.cs: 0a3ecf20ea398b07067a97ad700896f0 -> 5283aad2a7aabad7c8e41bd70e3fdaff
+  custom:scripting/monoscript/fileName/ImplementsAttribute.cs: 755b5cb31c426717fe8b19ae8fa6bb81 -> 215fb75cf66166efb5620ccefa14bd6e
+  custom:scripting/monoscript/fileName/PhysicsLayerAttribute.cs: a3dadc91713bf2a439e9dcb8d83edcd8 -> ac0023ed8cb37ed16ba62f9837c2d19e
+  custom:scripting/monoscript/fileName/ClippingBox.cs: dd14b0880860c6b722b4765e323d4048 -> a5e8e92e894549747b45cb1e1b59af4c
+  custom:scripting/monoscript/fileName/BaseMeshOutline.cs: 25687a3b6976bab2861c8a622c72e270 -> 4e494e8cd59c85ff747988caa2149396
+  custom:scripting/monoscript/fileName/ReadOnlyAttribute.cs: d6ff3f82563bc8b5b53669110b89ef7f -> 31a8aa84e7ffaf1dd60301bccee3e893
+  custom:scripting/monoscript/fileName/IAudioInfluencer.cs: eb8d1d8e6a2e3019a7e7bce0065e34bd -> 2ad1724349f942de423dddaf734387a3
+  custom:scripting/monoscript/fileName/MixedRealityRaycaster.cs: c1262cb352e3ea03746433dc5bf7a80a -> 3dbe57ae8697320bf42da035e5b82221
+  custom:scripting/monoscript/fileName/EnumFlagsAttribute.cs: 77b8cd9be045dc594788b9c25194eb8c -> f779265e426c51b2b49913553a02d3fa
+  custom:scripting/monoscript/fileName/BoundsExtensions.cs: 33669c7c51653864b983a2f4a05e3d24 -> 27e3280a2e23fb56cd18864e2c8da1ff
+  custom:scripting/monoscript/fileName/GUIEnabledWrapper.cs: 3dfb29ce9e10809f7d26951636796545 -> 7ba75ffe2c8635308542fd8b114172a3
+  custom:scripting/monoscript/fileName/ExtendsAttribute.cs: 23a5e1f651aadc04d9ca32320567f3e1 -> c3cace6f6b8b91d248796a87128e4acc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/TypeReferencePropertyDrawer.cs: 45d73353af46935edd108e487f2de00b -> 833fb241ff1b1c6474ed945188053462
+  custom:scripting/monoscript/fileName/ClippingSphereInspector.cs: f3cd091b4f9af91b9bbdfce2d72b458d -> c83edcbe87a0ef006a170d738c881f49
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandBounds.cs: ced7ddc28766467d2c200002d850d2de -> 37e120dcdd96609647df7cd4d9cf4dee
+  custom:scripting/monoscript/fileName/MathUtilities.cs: 3ab095502901ad348cb76b73d67ebc72 -> 3c0dcfd123fa76a86d0e7205c22f4071
+  custom:scripting/monoscript/fileName/MaterialInstance.cs: b1601f8a45d5d9d1f28e9a89a4fc813c -> 43da2365b104dd8e5c9fdf32092aeb9f
+  custom:scripting/monoscript/fileName/CameraExtensions.cs: 0ff71527ea4b4dcbaf7ddd1561690ada -> 635827d50a9faa4b9a7edb5a626c2568
+  custom:scripting/monoscript/fileName/AssemblyExtensions.cs: 8e8e02a41c117fda61cb785786ec3dc1 -> 2a6c12115a62a1348e12c2fdbceb20ee
+  custom:scripting/monoscript/fileName/ExperimentalDrawer.cs: 888ed37d9617e166790e1c31dc2b60bf -> eb99293ead56ba43765b1fe8405d931a
+  custom:scripting/monoscript/fileName/VectorExtensions.cs: a162d52876341483240c1dae567fe9b2 -> 87cfad9b52febbfbce2ef62dd6a281e0
+  custom:scripting/monoscript/fileName/StandardShaderUtility.cs: b1d9cb08c0a33d4b8d8ef568c730ac42 -> d3fb6f2bba7d92f0be40002a55206827
+  custom:scripting/monoscript/fileName/IMaterialInstanceOwner.cs: 98e07bc7cb351300546eb78aa8771e4d -> 2b964b61f7cd7cb8362382ee801e11ab
+  custom:scripting/monoscript/fileName/IHandRay.cs: ca35a0c1c687b72f3b0fcb9290628fe2 -> 658b961a104cb27665710a67c67ee72c
+  custom:scripting/monoscript/fileName/InputActionPropertyDrawer.cs: 19280eef7f6d2b681e448dc21fd2c314 -> 9ff613c5a7187623898b53c528744507
+  custom:scripting/monoscript/fileName/MathfExtensions.cs: 09769d89e8d76fb31ac7ef26fbf9d9d5 -> df98a6efe1f85fbbf780d7affe262b62
+  custom:scripting/monoscript/fileName/HandednessExtensions.cs: 2b4941d640921722147425f2ade098f4 -> 9fed3eaa1fcf319b05c84199dc298202
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CameraFOVChecker.cs: b1d556ffa5281ff10dede642122ec1af -> 46bc098f1c0398248322e572887ee80a
+  custom:scripting/monoscript/fileName/SelectRepairedTypeWindow.cs: b012e5a3fdcfdfa755f797b0eae5d045 -> 3ba88f6a8ca09429131cf8c53befcb53
+  custom:scripting/monoscript/fileName/IMixedRealityHandVisualizer.cs:  -> d38e4e79edb03c9b80439c978dd82a16
+  custom:scripting/monoscript/fileName/IMixedRealityPointer.cs:  -> af7fb4cf81b40835e290729a52c46912
+  custom:scripting/monoscript/fileName/MixedRealitySceneSystem.cs:  -> 9104d0ced026605df987a3c9c52c1643
+  custom:scripting/monoscript/fileName/ICursorModifier.cs:  -> 77cb3f65d2cd48c59ce8bd038deb8b81
+  custom:scripting/monoscript/fileName/SimulatedGestureHand.cs:  -> eefe687765a035603ef4e4f2f9ae29fb
+  custom:scripting/monoscript/fileName/GazeProvider.cs:  -> 58fb07cb1043fc3ce1f3af2a6d9632e8
+  custom:scripting/monoscript/fileName/WindowsMixedRealitySpatialMeshObserver.cs:  -> f800caddf91ff08fb1f532459c262bd9
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem:  -> fde85e9db894532fca57b5bfa4a29df3
+  custom:scripting/monoscript/fileName/UwpAppxBuildTools.cs:  -> 917ca227b6e3ad830c0505c5bd6d24b4
+  custom:scripting/monoscript/fileName/InputAnimation.cs:  -> 00079dd1615831869d9780ebda08cbd1
+  custom:scripting/monoscript/fileName/SpatialObjectMeshObserverProfile.cs:  -> 5480dd6778e32b09c375315417a2caa5
+  custom:scripting/monoscript/fileName/FastSimplexNoise.cs:  -> 70dfcdabedc91c46cbf2704a00ee1ff0
+  custom:scripting/monoscript/fileName/KeywordAndResponse.cs:  -> 10e45e8c4b0ec2ad8654010c93063cfa
+  custom:scripting/monoscript/fileName/DataProviderAccessServiceInspector.cs:  -> 94cf7149be20ff66aeae95359cfc173d
+  custom:scripting/monoscript/fileName/ParabolaLineDataProvider.cs:  -> 39953b37c034ae592da1c41fa541e5e1
+  custom:scripting/monoscript/fileName/SpeechCommands.cs:  -> c241ab1e594ac8d464582585f1476160
+  custom:scripting/monoscript/fileName/NearInteractionTouchableVolume.cs:  -> 69151e2df73a22a719c80019414f0ac0
+  custom:scripting/monoscript/fileName/IMixedRealityServiceConfiguration.cs:  -> fcd8c91d9d2dfc33eb0848366ec26bd1
+  custom:scripting/monoscript/fileName/CameraCache.cs:  -> ba0048704f1da1c97057634f611f648a
+  custom:scripting/monoscript/fileName/UnityObjectExtensions.cs:  -> 57f933fa4fd887c04cdc52fd667c7597
+  custom:scripting/monoscript/fileName/DHCPInfo.cs:  -> 49f4a885386530f0a479e1c282e0db52
+  custom:scripting/monoscript/fileName/RotationConstraintType.cs:  -> ac3c8eb0d001ab8af480a7d3acc9518a
+  custom:scripting/monoscript/fileName/HandJointUtils.cs:  -> 20ed02cf8a153f7600c7ea948ed6eb2e
+  custom:scripting/monoscript/fileName/MixedRealityControllerModelHelpers.cs:  -> e6a35bfb774faf09d6d4f9945f27b520
+  custom:scripting/monoscript/fileName/IMixedRealityHand.cs:  -> 7b92429439ff1e7b59ebe12d86e1ff59
+  custom:scripting/monoscript/fileName/MixedRealityEyeTrackingProfileInspector.cs:  -> bed5db03e4dfc52e25da2fb800fdd671
+  custom:scripting/monoscript/fileName/DateTimeExtensions.cs:  -> 229cce2c264749032527b65938096a9c
+  custom:scripting/monoscript/fileName/PrefabAttribute.cs:  -> 3f595ff9c5da6a6d0364ebb824ad9893
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.LeapMotion:  -> e531192421584dbeea19d0eabb58e72e
+  custom:scripting/monoscript/fileName/FlagsExtensions.cs:  -> 9219299129413417db97c5ab81d515b6
+  custom:scripting/monoscript/fileName/InspectorPropertySettings.cs:  -> b26df28964e41f3ab3019ed5d965f91a
+  custom:scripting/monoscript/fileName/WirelessNetworkInfo.cs:  -> f691bc0f46efe081e3a8b92ebb023710
+  custom:scripting/monoscript/fileName/WindowsExtensions.cs:  -> 40219524837a3a9b76a33a84a44c88e1
+  custom:scripting/monoscript/fileName/IMixedRealityInputDeviceManager.cs:  -> 50b78457c542f0d2c32d0edc2d6dee77
+  custom:scripting/monoscript/fileName/InputSimulationHelpGuide.cs:  -> fc6b7451666931f5539bd764dadf3d8d
+  custom:scripting/monoscript/fileName/TypeCacheUtility.cs:  -> fb8c8b0f10080c061474d5303b52d759
+  custom:scripting/monoscript/fileName/NearInteractionTouchable.cs:  -> 3798568e7da63936f98d966749f7dad1
+  custom:scripting/monoscript/fileName/MixedRealityExperienceSettingsProfile.cs:  -> b0b76788ed38d32d567275bceaded450
+  custom:scripting/monoscript/fileName/UnityTouchController.cs:  -> b5cb6acae8ddc3d3104264d781a99294
+  custom:scripting/monoscript/fileName/BaseSpatialAwarenessObject.cs:  -> e02160c91e0723162f0052a334c66b88
+  custom:scripting/monoscript/fileName/MixedRealityToolkitFiles.cs:  -> fed997c14f01e41e04972e9f26b273b3
+  custom:scripting/monoscript/fileName/IMixedRealitySpatialAwarenessMeshObserver.cs:  -> 7f3ac04b22ba2d65de7602ce03e8afde
+  custom:scripting/monoscript/fileName/IMixedRealityTeleportHotspot.cs:  -> ecf68e6086a677dffc1a7ba8bb8d936e
+  custom:scripting/monoscript/fileName/WaitForUpdate.cs:  -> c565f73143eef9d1519c8a528784a681
+  custom:scripting/monoscript/fileName/ParabolicConstrainedLineDataProviderInspector.cs:  -> 25d1def01792db14a4d77073f6bfd831
+  custom:scripting/monoscript/fileName/MixedRealityProfileCloneWindow.cs:  -> 124b6f15b34a9e4cc12bf18b6aebab1e
+  custom:scripting/monoscript/fileName/WindowsSceneUnderstandingObserver.cs:  -> c02ebfc6fd2431a76f9bbeff77fd7516
+  custom:scripting/monoscript/fileName/IMixedRealitySceneUnderstandingObserver.cs:  -> 6adf9df2155102c492d9237c403bc17a
+  custom:scripting/monoscript/fileName/SimulatedMotionControllerButtonState.cs:  -> abe0c673cedca7e43faeed4f480d6471
+  custom:scripting/monoscript/fileName/Interpolator.cs:  -> 9c9c4be51ecdfbb989e58aa42743cf50
+  custom:scripting/monoscript/fileName/IMixedRealityNearPointer.cs:  -> a39da67890f3c21a1ad7e1b961abe0df
+  custom:scripting/monoscript/fileName/BuildDeployPreferences.cs:  -> bf3394daf6890819c9104585304de804
+  custom:scripting/monoscript/fileName/GltfConversions.cs:  -> 149802e0f5088df2bfd24dde42f71ce9
+  custom:scripting/monoscript/fileName/DoubleExtensions.cs:  -> 72ba7f3b51f7506020b6dcc042942d8b
+  custom:scripting/monoscript/fileName/MicrosoftOpenXRGGVHand.cs:  -> 688ba75a561afe3493463a898882b83e
+  custom:scripting/monoscript/fileName/IMixedRealityInputSourceDefinition.cs:  -> 56c57f4ee1684a0911739dcb865cceb0
+  custom:scripting/monoscript/fileName/HandJointService.cs:  -> c06325064a2c2105c53bbac3c8ee8f34
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor:  -> b0a811879aad68ca5fcc9810a42e7799
+  custom:scripting/monoscript/fileName/IMixedRealityInputSource.cs:  -> bde30ae76ec8f00f07bc3c33ffcda675
+  custom:scripting/monoscript/fileName/IMixedRealityBoundarySystem.cs:  -> 0cb02f8c2de10719f090a196324a10af
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit:  -> f1966e4fbc0458d511039f5a293be6a5
+  custom:scripting/monoscript/fileName/SimulatedControllerDataProvider.cs:  -> a6629c43a1c101e7bb83e72df8221b6e
+  custom:scripting/monoscript/fileName/SceneInfoUtils.cs:  -> 34885d50b07517270d3544e80854abd5
+  custom:scripting/monoscript/fileName/OpenXRControllerModelProvider.cs:  -> 274ee3b968c7d5ade97d281774d269a6
+  custom:scripting/monoscript/fileName/DevicePortalConnections.cs:  -> 5f07b9353071952588d1edcd9b75580e
+  custom:scripting/monoscript/fileName/AssemblyDefinition.cs:  -> a2d946c2d4df1960a5ee6dc9d140a8fa
+  custom:scripting/monoscript/fileName/MixedRealityWireframeShaderGUI.cs:  -> aabcaca0bbd18f2f6d076add41e888fa
+  custom:scripting/monoscript/fileName/DiagnosticsSystemVoiceControls.cs:  -> dd057040e408be1200f4789c1c493176
+  custom:scripting/monoscript/fileName/MixedRealityDiagnosticsProfile.cs:  -> 2c423af9a50108bff2eac53c015cdf9c
+  custom:scripting/monoscript/fileName/ServiceFacadeInspector.cs:  -> c17651d92e4a373c13fb28a1b1142bce
+  custom:scripting/monoscript/fileName/MixedRealitySearchInspectorUtility.cs:  -> cb0594b649d61f7f02f21fcdb8ef0d6a
+  custom:scripting/monoscript/fileName/InputActionRulePoseAxis.cs:  -> fd40f0b4d14883b7cab7bb109c25b7d3
+  custom:scripting/monoscript/fileName/GltfEditorImporter.cs:  -> 3601b6e2980cb3b4f35e48059ef0b023
+  custom:scripting/monoscript/fileName/MixedRealityInputRecordingProfile.cs:  -> 199decb6f02d188e866c938ff76423ba
+  custom:scripting/monoscript/fileName/InputActionRuleSingleAxis.cs:  -> 9fd7aa1e52650f0610666f16d123225a
+  custom:scripting/monoscript/fileName/ControllerInputActionOption.cs:  -> 801835dde4265869339b8a663fc58506
+  custom:scripting/monoscript/fileName/SpatialAwarenessMeshObject.cs:  -> e180cc5bb696897165bf4ab0399ba0bf
+  custom:scripting/monoscript/fileName/IMixedRealityPointerHandler.cs:  -> f3cdaed0825ed4b44883f2a4d0fd22e6
+  custom:scripting/monoscript/fileName/GltfMaterial.cs:  -> 6d6b977dae72dae35e0d0687a929d518
+  custom:scripting/monoscript/fileName/DocLinkAttribute.cs:  -> de30e8d6d8c71d35ca56afafb94f6382
+  custom:scripting/monoscript/fileName/OpenXRHandJointProvider.cs:  -> afa0c51aa5a6f3e10e04f3c98758bff0
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Editor.Utilities:  -> 70c0423de4c4cb7b163988245a510d53
+  custom:scripting/monoscript/fileName/BaseService.cs:  -> b19e947525b41eca5c1f1b3b70858d02
+  custom:scripting/monoscript/fileName/SpatialAwarenessSceneObject.cs:  -> 4c45d02f4e57bffe6f21b484abb5e8b0
+  custom:scripting/monoscript/fileName/HPReverbG2Controller.cs:  -> 037df4d15587128e26b1e56b78a7acba
+  custom:scripting/monoscript/fileName/BaseInputDeviceManager.cs:  -> a926238aa81b8a624d920be59abb4f19
+  custom:scripting/monoscript/fileName/MixedRealityStandardShaderGUI.cs:  -> 7460c0823b6b13cae792b94886717888
+  custom:scripting/monoscript/fileName/KeyBinding.cs:  -> ebfbbd37bab86026babc05e3395a3ebf
+  custom:scripting/monoscript/fileName/DistorterWiggly.cs:  -> e65baed855b1e0aaef837102837f8c5a
+  custom:scripting/monoscript/fileName/BaseEventSystem.cs:  -> 2d854152cda39923105b57549772561e
+  custom:scripting/monoscript/fileName/BaseInputSimulationService.cs:  -> 008e09f95f42c3933e20e1f741b4b827
+  custom:scripting/monoscript/fileName/PrefabPropertyDrawer.cs:  -> edb9c1f683d2ff55e05ed4d438a43887
+  custom:scripting/monoscript/fileName/SplineDataProviderInspector.cs:  -> 6e6427b98b01c8846e919b743877870f
+  custom:scripting/monoscript/fileName/ViveWandControllerDefinition.cs:  -> 4d5110cc095df82e3c249ab60f5b127e
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem:  -> eb2506b942622bb6e8e97c3abcb4f8f9
+  custom:scripting/monoscript/fileName/GltfOcclusionTextureInfo.cs:  -> 7e9c9e585885b63d803a10ac7fb95e66
+  custom:scripting/monoscript/fileName/XRSDKBoundarySystem.cs:  -> 68b71a06a725832e7c4cbe4161991401
+  custom:scripting/monoscript/fileName/GltfUtility.cs:  -> ccf3b266c5e13e9a4a6e71b8651033d6
+  custom:scripting/monoscript/fileName/ParabolaConstrainedLineDataProvider.cs:  -> c152abee1a163dcd6160e96996081e2c
+  custom:scripting/monoscript/fileName/NearInteractionGrabbable.cs:  -> 4698a0a6daa8b0a085960015e4d939f6
+  custom:scripting/monoscript/fileName/IMixedRealitySpatialAwarenessObserver.cs:  -> da3633765f786349b240ccb0b6d418f2
+  custom:scripting/monoscript/fileName/MixedRealityControllerVisualizationSetting.cs:  -> b35bcf4a8a646bfab2072b85e4839d40
+  custom:scripting/monoscript/fileName/EditorAssemblyReloadManager.cs:  -> d01a9711adc240706b01a4b6f24fae0d
+  custom:scripting/monoscript/fileName/ConstructGltf.cs:  -> 7db6becbf2f8f6837e6e2eb1b616c879
+  custom:scripting/monoscript/fileName/MixedRealityInputActionMapping.cs:  -> 5f1e697513ec3309260ab368fc60e1dc
+  custom:scripting/monoscript/fileName/UwpBuildDeployPreferences.cs:  -> 7a6b5b96fd738098a563578c6e36dd87
+  custom:scripting/monoscript/fileName/BatteryInfo.cs:  -> d8142a385b2f4105365bcb929574b2cc
+  custom:scripting/monoscript/fileName/GenericOpenVRControllerDefinition.cs:  -> ed20e27c8b84e3f0b75df86530448235
+  custom:scripting/monoscript/fileName/EnumFlagsAttributeDrawer.cs:  -> 21aa146374ceae41cd5ca9c50698a8c6
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.StandardAssets.Editor:  -> 111bdf6e84dce985fc501728771e9895
+  custom:scripting/monoscript/fileName/ControllerPopupWindow.cs:  -> 632b0b8ee118e64daefd24345a3cdfcf
+  custom:scripting/monoscript/fileName/SpeechKeywordUtility.cs:  -> 32eba7f972f13e22b0037c2c84226b06
+  custom:scripting/monoscript/fileName/MixedRealityInputActionsProfile.cs:  -> 5325ab7ea22d2dd5de83372f9ab7ebf7
+  custom:scripting/monoscript/fileName/CustomUsages.cs:  -> 363f7ea22370f469833465203bfe07ff
+  custom:scripting/monoscript/fileName/IBuildInfo.cs:  -> 22fc1a10cae1ef9c0c76b9d887b84e7b
+  custom:scripting/monoscript/fileName/MixedRealitySpatialAwarenessSystemProfileInspector.cs:  -> f2e3e0e9b321413a996e38fc5dbfc8c1
+  custom:scripting/monoscript/fileName/AwaiterExtensions.cs:  -> fb0ec9bed68d1b5e5808c9bbcc99db1d
+  custom:scripting/monoscript/fileName/MixedRealityInputModuleInspector.cs:  -> 9181b8e83d3fba06126e558488868438
+  custom:scripting/monoscript/fileName/IMixedRealityTeleportHandler.cs:  -> e140caa18236889e85322c649d6f99f2
+  custom:scripting/monoscript/fileName/BaseSpatialObserver.cs:  -> 9962f4697c078de510121ca18a97bc97
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Services.SceneSystem:  -> c0c4b0f334d68c1ae787dd69997300c8
+  custom:scripting/monoscript/fileName/GenericXRSDKController.cs:  -> b24b0854e1287f81bd89f421837990e5
+  custom:scripting/monoscript/fileName/GltfNode.cs:  -> 284f7fafc8206968b396212cdb749b66
+  custom:scripting/monoscript/fileName/IMixedRealityCursor.cs:  -> 5d28a39a42eb45333632732a2d6dc847
+  custom:scripting/monoscript/fileName/InputRecordingService.cs:  -> 46227c3295f3cafdd881a519e3238859
+  custom:scripting/monoscript/fileName/AnimatorParameter.cs:  -> 0cebd4cd520f65382c65b5321e97b4f0
+  custom:scripting/monoscript/fileName/MixedRealityTeleportSystem.cs:  -> 75362b2cf5648393e1934f5fb2181ffe
+  custom:scripting/monoscript/fileName/ArEnumConversion.cs:  -> f2d61dbb6878bfe0ed8064cb1792929a
+  custom:scripting/monoscript/fileName/MixedRealityBuildPreferences.cs:  -> 757d3fa62cf438e622ab221ae0ee98ff
+  custom:scripting/monoscript/fileName/FileInfo.cs:  -> ab0a6ae8af65e3afd09ac05372e75aea
+  custom:scripting/monoscript/fileName/IMixedRealitySpatialAwarenessSystem.cs:  -> ed48e2cdef8ed4ce7abba6c76dc38fbc
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Services.TeleportSystem:  -> 000f80b920a3b18416a064c08c6289c5
+  custom:scripting/monoscript/fileName/PlacementEventData.cs:  -> 3e9896849a153cd388e71d9a2a8005aa
+  custom:scripting/monoscript/fileName/IMixedRealityMouseDeviceManager.cs:  -> 9af2c92ab85fbacc4a7cd3e52b81f809
+  custom:scripting/monoscript/fileName/WindowsSpeechInputProvider.cs:  -> 6933db4a194f622ac5b2849974945003
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Editor.ClassExtensions:  -> f3aa13c3cdf8b887245131edfa683ed9
+  custom:scripting/monoscript/fileName/MixedRealitySceneSystemProfileInspector.cs:  -> 97c9fcc61c306dc94ac2319dbe1cd575
+  custom:scripting/monoscript/fileName/BaseNearInteractionTouchable.cs:  -> 7ecbabf10af51ad1aeedf251a5ea8ca8
+  custom:scripting/monoscript/fileName/SerializedObjectUtils.cs:  -> f7b55eebd249182d944a26be55fbf877
+  custom:scripting/monoscript/fileName/DeviceInfo.cs:  -> 3cdee39ebf9b62fc90a62418c4bcad29
+  custom:scripting/monoscript/fileName/IMixedRealitySceneSystemEditor.cs:  -> 80f114e423b7cc7e67a9e3b464129255
+  custom:scripting/monoscript/fileName/WindowsMixedRealityDeviceManager.cs:  -> 5b95cbe0934270867de88f8abc2a476c
+  custom:scripting/monoscript/fileName/Vector3RangePropertyDrawer.cs:  -> 1da7bc721f8c46de59a234f663f4f64e
+  custom:scripting/monoscript/fileName/ParabolaPhysicalLineDataProviderInspector.cs:  -> 18b69f058703a3683adb181e6436a466
+  custom:scripting/monoscript/fileName/MixedRealityCameraProfile.cs:  -> b12deb5242fdaf568148dce272e72786
+  custom:scripting/monoscript/fileName/VectorRollingStatistics.cs:  -> 34a8decf0ae77f7bc794240dcb70f31f
+  custom:scripting/monoscript/fileName/SimulatedArticulatedHandPoses.cs:  -> c9e0985bef0a2536e00679733466507b
+  custom:scripting/monoscript/fileName/MixedRealityPose.cs:  -> 2661bbc0bd697e6aee2236e7762f58a8
+  custom:scripting/monoscript/fileName/FocusProvider.cs:  -> 77ce7e54bc601268579237de0440ca9c
+  custom:scripting/monoscript/fileName/IMixedRealityCameraSystem.cs:  -> 379677d33cc38634a2bcea3ed608376b
+  custom:scripting/monoscript/fileName/SpatialObjectMeshObserverProfileInspector.cs:  -> c29eb67e91a2d7b89501a92d8ad6ee28
+  custom:scripting/monoscript/fileName/MixedRealityRegisteredServiceProviderProfileInspector.cs:  -> 5ad87a79a14307685d50978df15c684c
+  custom:scripting/monoscript/fileName/MouseControllerDefinition.cs:  -> cbdf7c26db9226b1d1f6f93bc5482c13
+  custom:scripting/monoscript/fileName/ServiceFacade.cs:  -> 7cb631c261f7d56637dc07442fa5ede4
+  custom:scripting/monoscript/fileName/SpeechCommandPropertyDrawer.cs:  -> 70a855c4e7106f037fddc247c67b4855
+  custom:scripting/monoscript/fileName/UwpBuildInfo.cs:  -> e8c45841e4f719075ffeaa61817fa421
+  custom:scripting/monoscript/fileName/ScriptUtilities.cs:  -> 82d9e7a1922937e4d21fe8e46565982c
+  custom:scripting/monoscript/fileName/Distorter.cs:  -> 0105539917b25d071902cc2707cbb2b3
+  custom:scripting/monoscript/fileName/WindowsMixedRealityControllerDefinition.cs:  -> e96a95b75a2d9039b0d913cde4e1bb4c
+  custom:scripting/monoscript/fileName/MixedRealityShaderGUI.cs:  -> 3e0b7223d3ade60921ede15066f94f85
+  custom:scripting/monoscript/fileName/MicrosoftArticulatedHand.cs:  -> 66175d52ba6eac251df52a0475b5cb71
+  custom:scripting/monoscript/fileName/AsyncCoroutineRunner.cs:  -> dae9852b0bab59806304f6f24a627312
+  custom:scripting/monoscript/fileName/InscribedRectangle.cs:  -> 9b2ed4660e2c865734c89342b7547140
+  custom:scripting/monoscript/fileName/GltfTextureInfo.cs:  -> 8517ac8a8bc85e855239eff5cf9cc370
+  custom:scripting/monoscript/fileName/InputSystemGlobalHandlerListener.cs:  -> a53ee0b2bdaf367b40cbe85e466c4d75
+  custom:scripting/monoscript/fileName/InputActionRuleDualAxis.cs:  -> 5272241456e3492bd3f94e4f0ac705b6
+  custom:scripting/monoscript/fileName/SceneInfo.cs:  -> a81781fee8060a434d781357d72d0e45
+  custom:scripting/monoscript/fileName/MixedRealityInputSimulationProfile.cs:  -> 0f7e781705426c283aa12a4c71559b49
+  custom:scripting/monoscript/fileName/RoomFileImporter.cs:  -> 3a0da849d18a0696fb3cafa65e659736
+  custom:scripting/monoscript/fileName/MixedRealityCanvasInspector.cs:  -> 8285f72ce10c38df63c6031632885578
+  custom:scripting/monoscript/fileName/Headset.cs:  -> bd44a978199c48f250f59f4b718751b6
+  custom:scripting/monoscript/fileName/BaseSpatialAwarenessObserverProfile.cs:  -> ca250db42492de8c0ad0803145993482
+  custom:scripting/monoscript/fileName/BaseHand.cs:  -> 2512ff9fe617b9b227d42ba61de5d4aa
+  custom:scripting/monoscript/fileName/Rest.cs:  -> 0c67bd433af70669bc431fd33a859f69
+  custom:scripting/monoscript/fileName/ProfileSearchResult.cs:  -> 6ca982bc6af19ce3a69ac310a36f2d23
+  custom:scripting/monoscript/fileName/SpatialAwarenessSurfaceTypes.cs:  -> d42e464b39023fe9a13f368a066e65ca
+  custom:scripting/monoscript/fileName/NearInteractionTouchableInspector.cs:  -> a6b49f58de983e9a7052688f67aa79a6
+  custom:scripting/monoscript/fileName/ScriptableObjectExtensions.cs:  -> 148c16b337ce1100b9a9e1d5f4c46f6a
+  custom:scripting/monoscript/fileName/IMixedRealityInputHandler.cs:  -> b17a2e5d038c4984632323a9e821d5df
+  custom:scripting/monoscript/fileName/MixedRealitySpatialAwarenessMeshObserverProfile.cs:  -> 9d90d76c8dc7923fc843366e716e35cf
+  custom:scripting/monoscript/fileName/LeapMotionDeviceManagerProfileInspector.cs:  -> b4fff7c9d421b46ced82719eb624a658
+  custom:scripting/monoscript/fileName/MixedRealityRegisteredServiceProvidersProfile.cs:  -> 8d1702a3396782a7968b02c64f213e7d
+  custom:scripting/monoscript/fileName/EventSystemExtensions.cs:  -> f812585647be34788553cab8cec0aed0
+  custom:scripting/monoscript/fileName/Color32Extensions.cs:  -> f26a1a2d7c5379bd768c575c952b59da
+  custom:scripting/monoscript/fileName/HPMotionControllerDefinition.cs:  -> a69b69c7edbbcc4b3cf5bd043d539899
+  custom:scripting/monoscript/fileName/GenericXRSDKCameraSettings.cs:  -> fab8486179f81596db03e2faeafcd29b
+  custom:scripting/monoscript/fileName/MixedRealityInputModule.cs:  -> 5472863651b138436607665a328bd280
+  custom:scripting/monoscript/fileName/WindowsApiChecker.cs:  -> 2bea11abcaa5d44f6a457c3acda1a0f6
+  custom:scripting/monoscript/fileName/AdapterInfo.cs:  -> 5fcf455b43c8ed4e620016f02cd913ad
+  custom:scripting/monoscript/fileName/MixedRealityToolkit.cs:  -> 66f13c9726c341ca4a26f4529626b85a
+  custom:scripting/monoscript/fileName/NearInteractionTouchableVolumeInspector.cs:  -> d2dbade59658dc35be5e416d5be21cd4
+  custom:scripting/monoscript/fileName/MixedRealityToolkitVisualProfiler.cs:  -> 5c6edc08773560413d0dd24b6797448d
+  custom:scripting/monoscript/fileName/PowerStateInfo.cs:  -> 5f31237bbd9789c676739f37f4f25ae6
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Gltf:  -> c5827c58ec86a02dbe6c91b721f7ffdc
+  custom:scripting/monoscript/fileName/DebugUtilities.cs:  -> 2e279ea4bed29de1ad1fcc5412f15670
+  custom:scripting/monoscript/fileName/HPMotionController.cs:  -> 943d53372ee6579fb5c581d45cfa5fbf
+  custom:scripting/monoscript/fileName/OpenXRCameraSettingsProfileInspector.cs:  -> 1caa930892070e17acb2897bdc63d2c0
+  custom:scripting/monoscript/fileName/IMixedRealitySceneSystem.cs:  -> 3e393d1e2f1ca3469b05d04dec7ffc6c
+  custom:scripting/monoscript/fileName/BaseInputEventData.cs:  -> 484195c96d1e5031d6896a205c47d960
+  custom:scripting/monoscript/fileName/MixedRealitySpatialAwarenessSystemProfile.cs:  -> dd54bfced545753458a96c0bc76e5903
+  custom:scripting/monoscript/fileName/IMixedRealityDataProvider.cs:  -> 8591924f99f4f8fbe448c0f2109db098
+  custom:scripting/monoscript/fileName/MixedRealityCameraSettingsConfiguration.cs:  -> c3e0793202daafa794c16e73ea2614d3
+  custom:scripting/monoscript/fileName/GltfSkin.cs:  -> 088e7094c12b2488dde7452929824c24
+  custom:scripting/monoscript/fileName/IMixedRealityTeleportPointer.cs:  -> ff84e0ad0df0ed4d1f273d3f5a295e66
+  custom:scripting/monoscript/fileName/IMixedRealityDictationHandler.cs:  -> 2b688cd67e93857695646e56d94c0e92
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor:  -> b7caf7eb7b2584ee6a09e6b5ae753e6a
+  custom:scripting/monoscript/fileName/BaseDataProvider.cs:  -> 9a3f1766250efc7d2d69eb59c386a8cb
+  custom:scripting/monoscript/fileName/DiagnosticsEventData.cs:  -> 6a549be29369b84f71c878b4d7b00dc1
+  custom:scripting/monoscript/fileName/WindowsMixedRealityArticulatedHandDefinition.cs:  -> 0d8e2c723264ca2feb70f2c4b798c925
+  custom:scripting/monoscript/fileName/IpConfigInfo.cs:  -> cc2b5db9e4b599aa44817bc581e89ff2
+  custom:scripting/monoscript/fileName/BaseMixedRealityToolkitConfigurationProfileInspector.cs:  -> 7b521d71d0914f8d3c125d7aab9adc43
+  custom:scripting/monoscript/fileName/SceneActivationToken.cs:  -> 987efe9f1d4ab6b7cc389e6a9f4bd826
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy:  -> d2f045714c1c72ce6a47af864b237216
+  custom:scripting/monoscript/fileName/SpeechKeywordAttribute.cs:  -> 132c2912fec56d5aa1af0120df3664ae
+  custom:scripting/monoscript/fileName/MixedRealityToolkitFacadeHandler.cs:  -> 9e753663af0e46242261f72f0dbfbfc6
+  custom:scripting/monoscript/fileName/OpenXRSpatialAwarenessMeshObserver.cs:  -> 845ce15fe0496f801f567cc3f58602dc
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Services.CameraSystem:  -> a5559caae11275651db8983b7e7c2790
+  custom:scripting/monoscript/fileName/EllipseLineDataProvider.cs:  -> 7f54122425a08d72fdbb5ee3df36d1f4
+  custom:scripting/monoscript/fileName/DefaultRaycastProvider.cs:  -> eebdbe22c95e389e0986bbe6efd06fc6
+  custom:scripting/monoscript/fileName/ProjectPreferences.cs:  -> 1439368ff4ff0fa00cd698dd4f2df648
+  custom:scripting/monoscript/fileName/InterpolationUtilities.cs:  -> 5b8353cb0ca85ce9c2505c97686f45f6
+  custom:scripting/monoscript/fileName/BaseMixedRealityServiceInspector.cs:  -> efd389f97e9491c1126abd6454d98afa
+  custom:scripting/monoscript/fileName/MixedRealityControllerMappingProfile.cs:  -> e8b7a211f3ba4506252688298ed84a4c
+  custom:scripting/monoscript/fileName/GltfPbrMetallicRoughness.cs:  -> 0ad0dd3d6ce9ed3b1b75067e2c8dd038
+  custom:scripting/monoscript/fileName/MixedRealityToolkitConfigurationProfile.cs:  -> 896f66ea6551087dddd5d4fbf7238ff2
+  custom:scripting/monoscript/fileName/MixedRealityInputSystem.cs:  -> 3d21ee850dd7c3aad03261c5f66c3981
+  custom:scripting/monoscript/fileName/BaseCameraSettingsProvider.cs:  -> 903928952e05b7f6334c36a8d029fda6
+  custom:scripting/monoscript/fileName/MixedRealityMouseInputProfile.cs:  -> 843712fec2232b6102fd44e016e29910
+  custom:scripting/monoscript/fileName/TouchScreenDefinition.cs:  -> 902f96620104ff914b6aaadd32224bd2
+  custom:scripting/monoscript/fileName/GenericJoystickController.cs:  -> e90e90beadc3f310d1e189f85ab81e5c
+  custom:scripting/monoscript/fileName/USBDeviceInfo.cs:  -> d9f034027c1111ac3604fe8954e319ec
+  custom:scripting/monoscript/fileName/WindowsDictationInputProvider.cs:  -> c7b40f9ca159cfded6d2efaa8126f099
+  custom:scripting/monoscript/fileName/MixedRealityGesturesProfileInspector.cs:  -> 2c2fa237ff7e2064a092a2962a6569ad
+  custom:scripting/monoscript/fileName/XRPipelineUtility.cs:  -> 4bbe37fa12e09d32a6e78195797d5b16
+  custom:scripting/monoscript/fileName/MixedRealitySearchUtility.cs:  -> 40282271c79fd3dacb2a2ec0b4efb5a4
+  custom:scripting/monoscript/fileName/InputAnimationSerializationUtils.cs:  -> d27f32043149d8a4f7235dba17ed3e9b
+  custom:scripting/monoscript/fileName/ActivePowerSchemeInfo.cs:  -> 16dbe407cef08fdcc8ff44b3960691a9
+  custom:scripting/monoscript/fileName/MixedRealityInteractionMappingLegacyInput.cs:  -> 60c9c02981939b16ccabacb50f229825
+  custom:scripting/monoscript/fileName/ArticulatedHandPose.cs:  -> f89d9ca21c8b7091f7a5e8dd2d39ef47
+  custom:scripting/monoscript/fileName/BaseController.cs:  -> 2fce7f84b0ecb2efb835c73923efeaa7
+  custom:scripting/monoscript/fileName/GameObjectCreator.cs:  -> 14cb548443eba726107362750cb87337
+  custom:scripting/monoscript/fileName/RuntimeLightingSettings.cs:  -> 50eb92b7e315959e9fb68328a32a6417
+  custom:scripting/monoscript/fileName/InputMappingAxisUtility.cs:  -> 23d0e031b46188042ee99cd76022aa45
+  custom:scripting/monoscript/fileName/MixedRealityExtensionServiceAttribute.cs:  -> 5ea80899812d089df5664a8da08a70ce
+  custom:scripting/monoscript/fileName/XboxController.cs:  -> 3a57f501502cd867bfe7e913d668db29
+  custom:scripting/monoscript/fileName/BaseLineDataProviderInspector.cs:  -> fba623ac99c67f69ce94dd1069863360
+  custom:scripting/monoscript/fileName/OpenXRCameraSettingsProfile.cs:  -> a0a75bd8c40c1aca5b00b828d3897aaf
+  custom:scripting/monoscript/fileName/IMixedRealityEventSystem.cs:  -> 7cb054934051df3986b9e60d87d0a9d4
+  custom:scripting/monoscript/fileName/MixedRealityPosePropertyDrawer.cs:  -> fd6f78147a3713924a3cf2a845039b11
+  custom:scripting/monoscript/fileName/GltfAccessorSparse.cs:  -> 9049571cfa7871d97d566bdd1f8c9c01
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor:  -> 6805995f92b455e6b166288db57d09f9
+  custom:scripting/monoscript/fileName/IMixedRealityHandJointService.cs:  -> 4610944482e87662b151d076a705a82c
+  custom:scripting/monoscript/fileName/RayExtensions.cs:  -> 7af36610927e6147e37738149a903170
+  custom:scripting/monoscript/fileName/HelpDrawer.cs:  -> 8322070a0239f0899fa9239509be5827
+  custom:scripting/monoscript/fileName/GltfAsset.cs:  -> d85a9702744b79c64d09b2a9609be56c
+  custom:scripting/monoscript/fileName/XRSettingsUtilities.cs:  -> 71070c4acdb22640fd334bbe82706d19
+  custom:scripting/monoscript/fileName/BuildInfo.cs:  -> 0e149c28396d283ffe3f763d0e54580a
+  custom:scripting/monoscript/fileName/WindowsMixedRealityConfigurationChecker.cs:  -> 252dabb3c90b3733a4041ff72106f9a5
+  custom:scripting/monoscript/fileName/MixedRealityLineRenderer.cs:  -> a510d71d7eb9f334022feba48d6a94c4
+  custom:scripting/monoscript/fileName/OpenXRDeviceManager.cs:  -> c5f17fb1087343887eaeb045e82d1b67
+  custom:scripting/monoscript/fileName/XRSDKWindowsMixedRealityUtilitiesProvider.cs:  -> 09fb8b1c97c57f4621d622c5e77ee8d7
+  custom:scripting/monoscript/fileName/SpatializerUtilities.cs:  -> 6e5ceb36dbe05f53b4ad14195fa748d1
+  custom:scripting/monoscript/fileName/PointerOption.cs:  -> 3921122ba2d2b10347f412adbf01e1f0
+  custom:scripting/monoscript/fileName/SpeechEventData.cs:  -> a24956e2fd88f406cbf3429236266d5d
+  custom:scripting/monoscript/fileName/WindowsMixedRealityCameraSettingsProfileInspector.cs:  -> 4b40a2ae87e9e943b336f67f86f341ec
+  custom:scripting/monoscript/fileName/MixedRealityInputSystemProfileInspector.cs:  -> 064178ac36135d31c4589487720fa23c
+  custom:scripting/monoscript/fileName/GltfMesh.cs:  -> 78dc94b0f69dc28dc37cb93b1d7a4c1d
+  custom:scripting/monoscript/fileName/MixedRealitySpatialAwarenessSystem.cs:  -> 8f364cc33e222413def00a4c27e756dd
+  custom:scripting/monoscript/fileName/ViveKnucklesControllerDefinition.cs:  -> ae24bd177b0d633a7228402257fc2bd3
+  custom:scripting/monoscript/fileName/OnLoadUtilities.cs:  -> 6d24f905c4fbac2b669f6ae29711e42e
+  custom:scripting/monoscript/fileName/GltfMeshPrimitiveAttributes.cs:  -> 00a9dd12ba9f1c957c3e97154135b400
+  custom:scripting/monoscript/fileName/XRSDKSubsystemHelpers.cs:  -> 981370ee5ecee612b120d7502269ebe1
+  custom:scripting/monoscript/fileName/SimulatedMotionController.cs:  -> eb3a59e3d96cd8b1c51b035576893c4e
+  custom:scripting/monoscript/fileName/Handedness.cs:  -> cb5838c3148828f1c9ad9ba2cf74f168
+  custom:scripting/monoscript/fileName/CoreServices.cs:  -> 65cc8ea5b17c7ee05e493bf9a0ba4628
+  custom:scripting/monoscript/fileName/IMixedRealityFocusChangedHandler.cs:  -> 7538a739d9502e61e66f761703dee0af
+  custom:scripting/monoscript/fileName/MachineName.cs:  -> b8c53079932a369d2e35c32d6072429b
+  custom:scripting/monoscript/fileName/MixedRealityToolkitHelpLinks.cs:  -> 04d0fa8044dad87898b06b9ca2f07b07
+  custom:scripting/monoscript/fileName/IMixedRealityPointerMediator.cs:  -> 891d01a1cc6f4e8bb92627ab59d47b7a
+  custom:scripting/monoscript/fileName/GltfAccessorSparseIndices.cs:  -> 18cf1e98c3e5219f86c94ea4607977fa
+  custom:scripting/monoscript/fileName/UWPCapabilityUtility.cs:  -> 32d8380655a80b820121dac27e5b9897
+  custom:scripting/monoscript/fileName/KeyBindingInspector.cs:  -> a95478d3d6f4e26bd4779e1487d68535
+  custom:scripting/monoscript/fileName/OculusController.cs:  -> 093b43a92b38c84c552a0a2dc4d63c72
+  custom:scripting/monoscript/fileName/UnityTouchDeviceManager.cs:  -> 2c881db4c87c586138426eeb04c72733
+  custom:scripting/monoscript/fileName/MouseController.cs:  -> 1f413f5f13e006f863c0af41b2277df9
+  custom:scripting/monoscript/fileName/GenericXRSDKSpatialMeshObserver.cs:  -> 098b04aef06ab4c3740c7e89a26227c2
+  custom:scripting/monoscript/fileName/OpenXRHandMeshProvider.cs:  -> e2d854b09bb6446ceb6b7011001eac36
+  custom:scripting/monoscript/fileName/WindowsMixedRealityHandRecorder.cs:  -> a4455612808bf334708ca264515f8691
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Editor.Inspectors:  -> 5c672d80525b39b30d6a4b8dd753e24a
+  custom:scripting/monoscript/fileName/GltfAssetInfo.cs:  -> 6bd8f7aeca68b1e30be5a650d2290bf0
+  custom:scripting/monoscript/fileName/HelpAttribute.cs:  -> 29cfc5031a7147d3bde04bccb564efb1
+  custom:scripting/monoscript/fileName/IMixedRealityHapticFeedback.cs:  -> fcff6f5450f519a54c08994caa2c56eb
+  custom:scripting/monoscript/fileName/IMixedRealityServiceInspector.cs:  -> 60ece51e9717c24234374ce0fdb2dcc8
+  custom:scripting/monoscript/fileName/SimulatedMotionControllerDataProvider.cs:  -> 7cd5940a0bc14f5252671a911f7f82e0
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality:  -> a71d1183d19321466b7c700e22448c8e
+  custom:scripting/monoscript/fileName/GltfMaterialCommonConstant.cs:  -> 0a2ae94690ef42413f12c92fab9d168b
+  custom:scripting/monoscript/fileName/IMixedRealityServiceState.cs:  -> 04b27c8b1f975e1615c06459e28b8826
+  custom:scripting/monoscript/fileName/IMixedRealityCameraSettingsProvider.cs:  -> 68491027d53ac24a47c074792b5cc15f
+  custom:scripting/monoscript/fileName/SearchConfig.cs:  -> 76aeb36dcd8293c0936b82ceefe0fc3a
+  custom:scripting/monoscript/fileName/GazeConePointer.cs:  -> ca18b5c4eb984cdb801897ecbf7f3ef4
+  custom:scripting/monoscript/fileName/InputPlaybackService.cs:  -> aa36858ac6c163aa58a6684a9ba5cd90
+  custom:scripting/monoscript/fileName/IMixedRealityControllerPoseSynchronizer.cs:  -> b819835109df624ef518c1d9ceefa5c2
+  custom:scripting/monoscript/fileName/GenericPointer.cs:  -> 647091fb57264ba9c915bbb67e7b4324
+  custom:scripting/monoscript/fileName/SimulatedArticulatedHand.cs:  -> 96f767ee18d2833acada852f4b5ba000
+  custom:scripting/monoscript/fileName/StripMeshLineRenderer.cs:  -> e0e68815872cef3aa2eb133ea3fbc243
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor:  -> 2a9b6d9214a7dd863011c83ad248f636
+  custom:scripting/monoscript/fileName/IMixedRealityQueryablePointer.cs:  -> 472912197890cc61751360946768da51
+  custom:scripting/monoscript/fileName/UnityARConfigurationChecker.cs:  -> 6622c962cc50fde7d238911e90a6bd4f
+  custom:scripting/monoscript/fileName/RectangleLineDataProviderInspector.cs:  -> 2442ed405de5c380804b05c8995a83cf
+  custom:scripting/monoscript/fileName/GameObjectPool.cs:  -> f41e1c46938fe7750dddfd1ffff3143d
+  custom:scripting/monoscript/fileName/KHR_Materials_PbrSpecularGlossiness.cs:  -> f2b1826184c4e0a9f1e5d82a9d83fdc8
+  custom:scripting/monoscript/fileName/ComparerExtensions.cs:  -> 40707583969f16110d1eb121df414992
+  custom:scripting/monoscript/fileName/BaseInputSourceDefinition.cs:  -> 3e34bcfa60370e2fe793bff6f506c7ad
+  custom:scripting/monoscript/fileName/ScriptedImporterAssetReimporter.cs:  -> f67b664fc8d6c4383779f8708e463ec3
+  custom:scripting/monoscript/fileName/GltfTexture.cs:  -> 18e73d47cc23521e62a9b0d489180518
+  custom:scripting/monoscript/fileName/SimulatedHand.cs:  -> e2a68fec2e6f6681515ade7394d6cc7c
+  custom:scripting/monoscript/fileName/IMixedRealitySpeechHandler.cs:  -> 3c7d8c6eb807264dabbb83e5d0040e3a
+  custom:scripting/monoscript/fileName/InputRecordingBuffer.cs:  -> d72a7ccf71a8ef7544cbbdd93f67b287
+  custom:scripting/monoscript/fileName/WindowsMixedRealityXRSDKGGVHand.cs:  -> 7807695c636a75d159884b6847b17777
+  custom:scripting/monoscript/fileName/EyeGazeSmoother.cs:  -> 0026eafa6a2130a63013c2759c8459e3
+  custom:scripting/monoscript/fileName/RuntimeRenderSettings.cs:  -> 39002aaf7936bdf40f470646d8c43336
+  custom:scripting/monoscript/fileName/MixedRealityProfileUtility.cs:  -> 23a826923bf796bb5c93d3c21ce28bdb
+  custom:scripting/monoscript/fileName/UwpPlayerBuildTools.cs:  -> 9b8e1d989fca0b2d1a6ee21fb4f105b0
+  custom:scripting/monoscript/fileName/DeviceUtility.cs:  -> 57a66d3c4ebbad807661dea19070a8d0
+  custom:scripting/monoscript/fileName/Text3DShaderGUI.cs:  -> ee21699a67794b0bd92e05873dc343b9
+  custom:scripting/monoscript/fileName/BaseDataProviderAccessCoreSystem.cs:  -> 3ba9228f02cd6f6c1e28458d27a43c0e
+  custom:scripting/monoscript/fileName/MixedRealityDataProviderAttribute.cs:  -> a822e087f1fb02dc7a495aec42d391a9
+  custom:scripting/monoscript/fileName/IPointerPreferences.cs:  -> 83f8edb59aaf6e40eaa09e52f8dd1d80
+  custom:scripting/monoscript/fileName/FocusEventData.cs:  -> 4165c05ddbbf0ac21481d37831d5f3b9
+  custom:scripting/monoscript/fileName/MixedRealityInputSimulationProfileInspector.cs:  -> 6d7de0dbfd73b33cbfbd9f7759b5ae18
+  custom:scripting/monoscript/fileName/SpatialAwarenessSystemInspector.cs:  -> 422ae25e2c6b4d4af97993ba0bd69aaa
+  custom:scripting/monoscript/fileName/MixedRealityEyeTrackingProfile.cs:  -> a76204b3776039547b0d8fd4b36fe059
+  custom:scripting/monoscript/fileName/GltfCameraOrthographic.cs:  -> 9a4953f3976cc1a2b2167898cd284b9d
+  custom:scripting/monoscript/fileName/MixedRealityTextMeshProShaderGUI.cs:  -> bfcdbc786e890f9a7d5e4f4a4ce06ee2
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.UnityAR:  -> e7e9173e3af43308dff8965b324cbe48
+  custom:scripting/monoscript/fileName/ResponseUtils.cs:  -> 541a934ebf349424f834067b57c61968
+  custom:scripting/monoscript/fileName/BaseMixedRealityLineRenderer.cs:  -> f3be8bc9bb8f842baf7278956793c143
+  custom:scripting/monoscript/fileName/LeapMotionUtilities.cs:  -> 4df687bfefc240869c362886f777a7e9
+  custom:scripting/monoscript/fileName/OBJWriterUtility.cs:  -> 0d79c1e5f69cc431d7a5947626835a9f
+  custom:scripting/monoscript/fileName/IMixedRealityBoundaryHandler.cs:  -> fe68d85bfbfe29c54ce16b7e4ebbad37
+  custom:scripting/monoscript/fileName/IMixedRealityFocusHandler.cs:  -> 8fcb2fd63c09710622e944354d01c2aa
+  custom:scripting/monoscript/fileName/MixedRealityToolkitPreserveSettings.cs:  -> fb014f3340a9560b290c6622d2065713
+  custom:scripting/monoscript/fileName/GazeStabilizer.cs:  -> 028245ad63de4b71c9f844861ad1428c
+  custom:scripting/monoscript/fileName/NetworkProfileInfo.cs:  -> d0e50cabd81e1ce19de39f72c368f500
+  custom:scripting/monoscript/fileName/RectangleLineDataProvider.cs:  -> 15dbb43b85c662c8b80ebc8a4e7d688a
+  custom:scripting/monoscript/fileName/SceneSystemInspector.cs:  -> aca31cc10b9b162e16236d1337d8fc1b
+  custom:scripting/monoscript/fileName/DictationEventData.cs:  -> cf2dba45f5b296a4891d271d01499869
+  custom:scripting/monoscript/fileName/FileList.cs:  -> 4f5066e53deb709b80f276b2616dda82
+  custom:scripting/monoscript/fileName/UnityPlayerBuildTools.cs:  -> 0e97f73db37f2f19a6a71d527892b6b7
+  custom:scripting/monoscript/fileName/ProcessList.cs:  -> c535cc20243dd7dac036b635cdff1640
+  custom:scripting/monoscript/fileName/InstallStatus.cs:  -> 99d697b7517c3496faba98543ddede5e
+  custom:scripting/monoscript/fileName/ManipulationHandFlags.cs:  -> e5f83cffe4d2ac3918d38b9b7f5dc9a0
+  custom:scripting/monoscript/fileName/BaseSpatialMeshObserver.cs:  -> 53dc7a17621a3a11a6aaf312334386e5
+  custom:scripting/monoscript/fileName/BezierDataProviderInspector.cs:  -> 16fef63dd507e30f24088e2822c2fbfa
+  custom:scripting/monoscript/fileName/GltfAnimationChannelTarget.cs:  -> 59ba09e713eab08088a97760701fd8ec
+  custom:scripting/monoscript/fileName/EditorSceneUtils.cs:  -> 699725918aa5b53b6a9e2d4eb1527e9e
+  custom:scripting/monoscript/fileName/GltfSampler.cs:  -> 25cc069d4e729dfbf3643ae3c32ba563
+  custom:scripting/monoscript/fileName/TeleportEventData.cs:  -> 04db9df08af822f09cb107109ba35cfd
+  custom:scripting/monoscript/fileName/InspectorField.cs:  -> 97fb0761274eda1b38e41292bdf8472f
+  custom:scripting/monoscript/fileName/ISpatialAwarenessPhysicsProperties.cs:  -> 3c394be8f75a99449153582bc4adbc2b
+  custom:scripting/monoscript/fileName/CanvasUtility.cs:  -> b8989d9a0768a6024d31830eca3add5e
+  custom:scripting/monoscript/fileName/UnityARCameraSettingsProfileInspector.cs:  -> c5865e4d01c82baa06771f161c88087b
+  custom:scripting/monoscript/fileName/MixedRealityCameraProfileInspector.cs:  -> 028934c0a6a765bfa9229c13ab49fa80
+  custom:scripting/monoscript/fileName/MixedRealityPointerProfile.cs:  -> f996ab8ed2e45e195ea47aef01915736
+  custom:scripting/monoscript/fileName/MixedRealityHandTrackingProfile.cs:  -> abf70d4f98a7190b4470d07369889e8f
+  custom:scripting/monoscript/fileName/OpenXRCameraSettings.cs:  -> becc6b130c992d2b4b3de12faf45669d
+  custom:scripting/monoscript/fileName/IMixedRealityDictationSystem.cs:  -> 6c038d80af4d8b0e562515cff9c15e53
+  custom:scripting/monoscript/fileName/NetworkInterfaces.cs:  -> bfdc1dacd078868a20828f97ddf976c8
+  custom:scripting/monoscript/fileName/Response.cs:  -> 1cd133faff494d953d6f33bcdc78c1cd
+  custom:scripting/monoscript/fileName/ParabolaPhysicalLineDataProvider.cs:  -> 8c0114fac7336c3293cbe41f22ef12cf
+  custom:scripting/monoscript/fileName/MixedRealityInputActionsProfileInspector.cs:  -> 94f30da446ce5ba7ed074f5399b07d27
+  custom:scripting/monoscript/fileName/MixedRealityOptimizeUtils.cs:  -> f0c4ae8a2fbf1c11525697de08d9c053
+  custom:scripting/monoscript/fileName/ProjectionOverride.cs:  -> 0b45a164f57b902d9841a30b73d2bf05
+  custom:scripting/monoscript/fileName/IMixedRealitySourceStateHandler.cs:  -> a71ffbaa5ab24bb007c4237519bbd00e
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors:  -> 9030099e955405796aa8912aab7d366b
+  custom:scripting/monoscript/fileName/IMixedRealityMousePointer.cs:  -> 01da7975f4bb50d47517f1bc2380d4da
+  custom:scripting/monoscript/fileName/InputActionRuleQuaternionAxis.cs:  -> 992466c7c4723d09e8036ce5aa017ae6
+  custom:scripting/monoscript/fileName/IMixedRealityTeleportSystem.cs:  -> d78a570d017dfe36ac27eb454dbdbe45
+  custom:scripting/monoscript/fileName/MixedRealityInputSystemProfile.cs:  -> b3d2472bcb31310c3014d7b58abc5c56
+  custom:scripting/monoscript/fileName/RuntimeSceneUtils.cs:  -> 1c27ee69288256bc725fc73128e938a9
+  custom:scripting/monoscript/fileName/GltfChildOfRootProperty.cs:  -> 1c319e53e23d681b2c87bbb7109acc81
+  custom:scripting/monoscript/fileName/WindowsMixedRealityUtilities.cs:  -> bb14c245cbfffe6f5ed683248b9a2af3
+  custom:scripting/monoscript/fileName/GltfObject.cs:  -> 78af061b5953b0bf2010ca9e65af5a19
+  custom:scripting/monoscript/fileName/InputActionEventPair.cs:  -> ec6c15566c964caf2db7a88193220f42
+  custom:scripting/monoscript/fileName/CanvasExtensions.cs:  -> 8551e72b0ad4be55fef2ffdbc9a0fdca
+  custom:scripting/monoscript/fileName/MixedRealityDiagnosticsSystemProfileInspector.cs:  -> 12b0cb1826edb76ca5083a8714a950b8
+  custom:scripting/monoscript/fileName/HandTrackingInputEventData.cs:  -> 92420489739a9b664302e33c8f89f959
+  custom:scripting/monoscript/fileName/LayerExtensions.cs:  -> 9ef35bc3603408d9301159d6c2d9e9cf
+  custom:scripting/monoscript/fileName/BaseBoundarySystem.cs:  -> 9a3d0a9f9f4dff7fb38149b6605bf348
+  custom:scripting/monoscript/fileName/WindowsMixedRealityReprojectionUpdater.cs:  -> ac72c9790b6a4dc218b23f15ff5f45d0
+  custom:scripting/monoscript/fileName/MixedRealityServiceInspectorAttribute.cs:  -> 171d1c572024c5d7fbe33dc8c1ce5c6d
+  custom:scripting/monoscript/fileName/InspectorFieldData.cs:  -> d58fffcbaa03d81b70cb537843163576
+  custom:scripting/monoscript/fileName/MixedRealityInspectorUtility.cs:  -> 1e4dde3185599cf6dfa137bf54206ed3
+  custom:scripting/monoscript/fileName/SimulatedHandUtils.cs:  -> 8d5b6929c564468b6de39d2b5b95151d
+  custom:scripting/monoscript/fileName/GltfCameraPerspective.cs:  -> 576bdcf932f27d5653822334913999b3
+  custom:scripting/monoscript/fileName/WindowsMixedRealityCameraSettings.cs:  -> 74e2ca71db2cae735593d41fc12651b1
+  custom:scripting/monoscript/fileName/SplineDataProvider.cs:  -> ed1a21e8336ffe4865057f02290cb63e
+  custom:scripting/monoscript/fileName/IMixedRealityDiagnosticsHandler.cs:  -> 22bd93387a0ded5373ce00abdb60ad1c
+  custom:scripting/monoscript/fileName/Vector3RangeAttribute.cs:  -> 8fe9cf5d58a38ad8467c820605fa3b17
+  custom:scripting/monoscript/fileName/ParticleSystemLineRenderer.cs:  -> 452685243322fe0ac3fb6cba9b7a81fa
+  custom:scripting/monoscript/fileName/MixedRealityControllerMapping.cs:  -> 3d6aa1bac55be4849750c6abacca662c
+  custom:scripting/monoscript/fileName/GltfAccessorSparseValues.cs:  -> a5a7d62a9fc08da2c2713ac7e301f11c
+  custom:scripting/monoscript/fileName/LeapMotionDeviceManagerProfile.cs:  -> 50bfc527833af44312649aa1d2cb64ca
+  custom:scripting/monoscript/fileName/CollectionsExtensions.cs:  -> 8a8b161faeff918e8e74d598c8a02456
+  custom:scripting/monoscript/fileName/MixedRealityToolkitShaderGUIUtilities.cs:  -> b86e0120640011f7c1ae1e0906713362
+  custom:scripting/monoscript/fileName/XboxControllerDefinition.cs:  -> 90fa21167de423ba52beb052877c2ddc
+  custom:scripting/monoscript/fileName/DeviceOsInfo.cs:  -> 56bbea3304689e894175c0727689bec8
+  custom:scripting/monoscript/fileName/BoundaryEventData.cs:  -> 254573d1f6500b93534c2434c538609a
+  custom:scripting/monoscript/fileName/IMixedRealityEyeGazeDataProvider.cs:  -> 9c73ee10267e971936deebb9333acfe9
+  custom:scripting/monoscript/fileName/MixedRealityControllerAttribute.cs:  -> ec08dfebf0d68e8af11a570a0276169e
+  custom:scripting/monoscript/fileName/LoaderHelpers.cs:  -> 68a5fca7c10b1a364e0a7661a327f2d1
+  custom:scripting/monoscript/fileName/IMixedRealityDataProviderAccess.cs:  -> b7fcb5b35eb589972184773b51659481
+  custom:scripting/monoscript/fileName/IMixedRealityService.cs:  -> 637aaac51eb5b80a20616f1e9eaab453
+  custom:scripting/monoscript/fileName/MixedRealityControllerVisualizationProfile.cs:  -> 08b4e3df04883f0fe00bc7c680e91b0d
+  custom:scripting/monoscript/fileName/IMixedRealityEventSource.cs:  -> 42343ca6fc92ca44bc32f76bcfe8b0e1
+  custom:scripting/monoscript/fileName/BaseGenericInputSource.cs:  -> 5b926018104e4f39dc0d3d6cccbcdd2a
+  custom:scripting/monoscript/fileName/MixedRealityPointerEventData.cs:  -> 59282afbe9b614a89f2ca1cbec69c12c
+  custom:scripting/monoscript/fileName/IMixedRealityEyeSaccadeProvider.cs:  -> 7e7a17ac655a6051dde5590f12d772cf
+  custom:scripting/monoscript/fileName/SizeUtilities.cs:  -> 16b61f9243b9fe07af5b42857617aad3
+  custom:scripting/monoscript/fileName/TagPropertyDrawer.cs:  -> 727f97a391860c46ae3bc1a3e465c7f2
+  custom:scripting/monoscript/fileName/BuildInfoExtensions.cs:  -> 8703547df2914f3d722e1641651f0ca8
+  custom:scripting/monoscript/fileName/RuntimeSunlightSettings.cs:  -> a4c7b2318de898ec562e25eee53bb447
+  custom:scripting/monoscript/fileName/GltfAssetImporter.cs:  -> 1831c5574f8af9d44454d21bc440df4d
+  custom:scripting/monoscript/fileName/IMixedRealityTouchPointer.cs:  -> 0d783eba6b618d3f0f5fcedb945474db
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Gltf.Importers:  -> 420f04f77510be6f7af03ed22529ef56
+  custom:scripting/monoscript/fileName/ManualCameraControl.cs:  -> 7d5884beafed4dbe33b566d0e4756753
+  custom:scripting/monoscript/fileName/ProcessExtensions.cs:  -> 716cf2d37beeb8cd8a6500208616ce17
+  custom:scripting/monoscript/fileName/ResolveDuplicateScenesWindow.cs:  -> 47b247860a563521637f4cd54f435044
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Async:  -> e36361d1b6e6682e79a9d563c51d4501
+  custom:scripting/monoscript/fileName/IMixedRealitySpatialAwarenessObject.cs:  -> 83a326a66149a0bd7d73561d8c69c0a1
+  custom:scripting/monoscript/fileName/InstalledApps.cs:  -> 235d4b957d71707c8217288904510802
+  custom:scripting/monoscript/fileName/Edge.cs:  -> a3e92fd0da9250b4ab2489952fe7702b
+  custom:scripting/monoscript/fileName/ArrayExtensions.cs:  -> 3123eaf1aea2318d6631bb2e2d58dd46
+  custom:scripting/monoscript/fileName/DepthBufferRenderer.cs:  -> 1c8c5fe26bcd834e25a1787a27eed57c
+  custom:scripting/monoscript/fileName/IMixedRealityHandJointHandler.cs:  -> ccaa66e096d34969c79dec3f6fecd005
+  custom:scripting/monoscript/fileName/InspectorFieldsUtility.cs:  -> f315235163aa64d6971c3968260f3986
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared:  -> 45cff7e359458b5f94361c8706a7eefc
+  custom:scripting/monoscript/fileName/SceneAssetReferenceAttribute.cs:  -> 6592f5a1ebdfafe61ed6741d6ce605f0
+  custom:scripting/monoscript/fileName/GltfCamera.cs:  -> c2a122aa2e66a9047ceb506af27262ab
+  custom:scripting/monoscript/fileName/IMixedRealityInputActionHandler.cs:  -> 7b608413a4fcab98d19f08f0e37e7b28
+  custom:scripting/monoscript/fileName/IMixedRealityExtensionService.cs:  -> a77d33707f37dc83a53df61e22e1bae0
+  custom:scripting/monoscript/fileName/IMixedRealityInputSystem.cs:  -> 0edcfd6db49d25f81ffdaee8742c1944
+  custom:scripting/monoscript/fileName/MixedRealityRaycastHit.cs:  -> e1c01627a9827847d3c713b799f128fc
+  custom:scripting/monoscript/fileName/TeleportSystemInspector.cs:  -> c5423cd41791b0867ec788680db122d8
+  custom:scripting/monoscript/fileName/BaseMixedRealityProfile.cs:  -> 83cb0c658e712b88050f2518f1e9bf4b
+  custom:scripting/monoscript/fileName/MixedRealityHandTrackingProfileInspector.cs:  -> 43ee017092997f9fbd18eaca5a4b5aef
+  custom:scripting/monoscript/fileName/IMixedRealityDiagnosticsSystem.cs:  -> 260b7e7855b5c6dd45b969525ab921d2
+  custom:scripting/monoscript/fileName/Texture2DExtensions.cs:  -> 12fef38da9a4a0db675db81bec774673
+  custom:scripting/monoscript/fileName/MRTKVersionPopup.cs:  -> 318b6fa3e050346c2d9853486ce246f4
+  custom:scripting/monoscript/fileName/InputEventData.cs:  -> 9735ccb041a6e84c67b250ef60ab9cf2
+  custom:scripting/monoscript/fileName/MixedRealityServiceRegistry.cs:  -> a2db399db71e8b1dfd0a525a7e7f7d74
+  custom:scripting/monoscript/fileName/LineFollower.cs:  -> a00d84a4d4c7d46d9aadf7d250360d21
+  custom:scripting/monoscript/fileName/LeapMotionArticulatedHand.cs:  -> 273bd85664cd63c79ba6e24ff0e656d0
+  custom:scripting/monoscript/fileName/ProcessInfo.cs:  -> 035f9d7b0d7642ccbc787d68fbac5d50
+  custom:scripting/monoscript/fileName/IMixedRealityRaycastProvider.cs:  -> 9a7eeec664740dcfbd8d32375f5ffa64
+  custom:scripting/monoscript/fileName/MixedRealitySceneContent.cs:  -> 76420306297bb7055713755f9f679596
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.OpenXR:  -> 7dc6266774d18504b3b745ae56a001cd
+  custom:scripting/monoscript/fileName/GltfAnimationSampler.cs:  -> 70b1daaa477f64a496cf5bd67c6634e2
+  custom:scripting/monoscript/fileName/OpenXRReprojectionUpdater.cs:  -> df484b0ea40eab0c6987bc81179fe1fe
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Services.InputSystem:  -> 361903f8649ffd0e81d41950e9e05f49
+  custom:scripting/monoscript/fileName/InterfaceInfo.cs:  -> 81ac882e3ccee042241e9dbc536948cf
+  custom:scripting/monoscript/fileName/IInputActionRule.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NearInteractionTouchableSurface.cs:  -> e61c750178e0e54b5d50a961c161504e
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor:  -> cda6a2240a95e61a2dfef8c7e97bc8dc
+  custom:scripting/monoscript/fileName/GltfAnimation.cs:  -> a3195b8c23618d04e92aa22a9f17cb97
+  custom:scripting/monoscript/fileName/ScriptingUtilities.cs:  -> 56cf46f277242b15b7abf8ab17295533
+  custom:scripting/monoscript/fileName/LeapMotionDeviceManager.cs:  -> 9c3b5c13b35b86e14ef9c083369cc010
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput:  -> 4e8f3863197730424e790de36d624ea7
+  custom:scripting/monoscript/fileName/SupportedPlatforms.cs:  -> ee9652c9291ee5969ebf7c2912a834c0
+  custom:scripting/monoscript/fileName/IPointerResult.cs:  -> efb1bc7781f3344aa73b43b6d5a973c5
+  custom:scripting/monoscript/fileName/NearInteractionTouchableUnityUI.cs:  -> 99619f2cab4c93dcee814e123f420332
+  custom:scripting/monoscript/fileName/ConeCastUtility.cs:  -> 43777d6819f53b532217e80718f75d3c
+  custom:scripting/monoscript/fileName/SupportedControllerType.cs:  -> 2ca8b54380f3fe6a79a7fe28feba6fa1
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.XRSDK:  -> 2c446b63b49e5146edcac494df12d956
+  custom:scripting/monoscript/fileName/MixedRealityServiceProfileAttribute.cs:  -> 2d9c1e15d2662d14ae91783620d9be43
+  custom:scripting/monoscript/fileName/MixedRealityToolkitConfigurationProfileInspector.cs:  -> 3a1f27fe1760e677b71e1793a1dbf6f7
+  custom:scripting/monoscript/fileName/GazePointerVisibilityStateMachine.cs:  -> e893f4a5bd379e3daebeae180fd9a01f
+  custom:scripting/monoscript/fileName/AnimatedCursorData.cs:  -> 5f578b55e0a21347e8d1e3857af084aa
+  custom:scripting/monoscript/fileName/USBDeviceListener.cs:  -> 69325ee367e4db5a190cb5bf8231ad35
+  custom:scripting/monoscript/fileName/GenericBaseEventData.cs:  -> bab1e8fc4b3215a93777e206d0cce133
+  custom:scripting/monoscript/fileName/FocusProviderInspector.cs:  -> ad23115c0065aae95d76db39f9b18bd2
+  custom:scripting/monoscript/fileName/LeapMotionConfigurationChecker.cs:  -> 3ebeeaecf20000b0f850f0c8fe002b47
+  custom:scripting/monoscript/fileName/MixedRealityBoundaryVisualizationProfile.cs:  -> 3b466cc68c3164df9858e6afe1e7a7e4
+  custom:scripting/monoscript/fileName/GltfBufferView.cs:  -> 5925ef25ab865e8473395a89f9b46816
+  custom:scripting/monoscript/fileName/BaseExtensionService.cs:  -> 3e676056c362d5d37e573ee5d3229109
+  custom:scripting/monoscript/fileName/TagPropertyAttribute.cs:  -> 9da5846e728ae491880f6c2e90f3dc71
+  custom:scripting/monoscript/fileName/MixedRealityGestureMapping.cs:  -> 34e8d0f6f37e91dee3f9a918fe1d2541
+  custom:scripting/monoscript/fileName/IMixedRealityController.cs:  -> 69a412870cdd423afdc1f2546df18c39
+  custom:scripting/monoscript/fileName/WindowsMixedRealityEyeGazeDataProvider.cs:  -> b699028144add1bf7646be7b27e6c54c
+  custom:scripting/monoscript/fileName/IMixedRealitySourcePoseHandler.cs:  -> eab63315f2117ad20a4d9e6d18dddf84
+  custom:scripting/monoscript/fileName/WindowsMixedRealityXRSDKMotionController.cs:  -> 2f6727713ad3b16d77a7c95c8ba5703d
+  custom:scripting/monoscript/fileName/MixedRealityProjectConfigurator.cs:  -> 381266826fcfbde30df289f102a3be18
+  custom:scripting/monoscript/fileName/DistorterSimplex.cs:  -> 84240e19142de71bdf564c9f5d14e337
+  custom:scripting/monoscript/fileName/MicrosoftMotionController.cs:  -> e5e650a56f62e0a2fb078d7fca4e01c0
+  custom:scripting/monoscript/fileName/SyncContextUtility.cs:  -> 74e2242176e2a80d4f966f58da1f4585
+  custom:scripting/monoscript/fileName/InputSimulationService.cs:  -> ba71a25d29f3fb610edd05cdd0654713
+  custom:scripting/monoscript/fileName/IMixedRealityGazeProvider.cs:  -> 6f7b733e538269982ec2253c54d7b56a
+  custom:scripting/monoscript/fileName/IMixedRealityEyeGazeProvider.cs:  -> 69000feb7d7e4c44bd4451d9e250fda8
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver:  -> 17c78d4d4adda9584c4b2a5b004477df
+  custom:scripting/monoscript/fileName/RaycastResultComparer.cs:  -> ad89543f38056c99940d6d8a3f944bd2
+  custom:scripting/monoscript/fileName/EditorLayerExtensions.cs:  -> 159d44885e200d93416c831e9af2ad1f
+  custom:scripting/monoscript/fileName/MouseDeviceManager.cs:  -> 869744367d74a1c904d0694a779f814e
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Services.InputSimulation:  -> 540b6ec05f2809ce4d7728a5c65cb9fb
+  custom:scripting/monoscript/fileName/IGameObjectCreatorListener.cs:  -> e7fbd3f77f5cae1dcbe2ac96f5a6e08b
+  custom:scripting/monoscript/fileName/GltfBuffer.cs:  -> 9d2fa59e9823a9c922765a8180d8231e
+  custom:scripting/monoscript/fileName/GltfAccessor.cs:  -> 4e3a8c4545fee7ff5f7bcc89160fc759
+  custom:scripting/monoscript/fileName/SpatialAwarenessPlanarObject.cs:  -> a5e10d2ac0a9c256097a4d9cd8657723
+  custom:scripting/monoscript/fileName/MixedRealityGesturesProfile.cs:  -> 65c6ef5effd5e212afe8c80219292993
+  custom:scripting/monoscript/fileName/MixedRealitySpatialAwarenessEventData.cs:  -> 9c7df8749e9901de2fb7e9538c17cf61
+  custom:scripting/monoscript/fileName/MixedRealitySpatialObserverConfiguration.cs:  -> bcb34bfd7ef59f945c9d1622b97caaa7
+  custom:scripting/monoscript/fileName/BaseMixedRealityProfileInspector.cs:  -> e96059a3aee267970219a76115ca01b9
+  custom:scripting/monoscript/fileName/IMixedRealityInputPlaybackService.cs:  -> ce6b5a255fe225f536d153fec570858f
+  custom:scripting/monoscript/fileName/InspectorGenericFields.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SceneInfoDrawer.cs:  -> cece7f034477ca863c93700571c8ed9a
+  custom:scripting/monoscript/fileName/IInputSimulationService.cs:  -> decbddc3e166b4e2fd8b6f2ce9609baf
+  custom:scripting/monoscript/fileName/SceneUnderstandingObserverProfile.cs:  -> dda0174055dd8c1ec9a3a83a54aad0ae
+  custom:scripting/monoscript/fileName/MixedRealityMouseInputProfileInspector.cs:  -> 84300a6e4a02b4286a22fb9d70c5ee13
+  custom:scripting/monoscript/fileName/InputSimulationWindow.cs:  -> c0f2298a15cbc24743bc37cc5466c052
+  custom:scripting/monoscript/fileName/WindowsMixedRealityControllerModelProvider.cs:  -> b501933d300baebfe9992ef86c992ef6
+  custom:scripting/monoscript/fileName/ComparableRaycastResult.cs:  -> a557d2c95e873b67dc5233fcc3b36074
+  custom:scripting/monoscript/fileName/IMixedRealityPrimaryPointerSelector.cs:  -> e1c91a830d77593c9383e950cc1baa4c
+  custom:scripting/monoscript/fileName/EdgeUtilities.cs:  -> e13629d7f8468684833c4c03b02d1bf7
+  custom:scripting/monoscript/fileName/MixedRealityBoundaryVisualizationProfileInspector.cs:  -> 14a6c9fdf3caa9e2bb306953a49d9633
+  custom:scripting/monoscript/fileName/IBaseRayStabilizer.cs:  -> c306c533b262927758b1fc9546edbd82
+  custom:scripting/monoscript/fileName/InputActionRuleDigital.cs:  -> 43d8070b0f6d14b3a2427dd5baabeab9
+  custom:scripting/monoscript/fileName/IMixedRealityInputRecordingService.cs:  -> 7145dbebcec18661390e8009efc90a5d
+  custom:scripting/monoscript/fileName/WaitForBackgroundThread.cs:  -> f83c43ef33b941118f7060a30ac12e68
+  custom:scripting/monoscript/fileName/GltfAnimationChannel.cs:  -> 002f96a3dd2c65dac8cb30b843e28067
+  custom:scripting/monoscript/fileName/MixedRealityEditorSettings.cs:  -> b65bff9ba225298cf4085ab015eeee3a
+  custom:scripting/monoscript/fileName/ControllerMappingLibrary.cs:  -> 499311f5cfd02a4f60b7325bded4417c
+  custom:scripting/monoscript/fileName/MixedRealityCameraSystem.cs:  -> 4948747047ea610f0100b469104cd980
+  custom:scripting/monoscript/fileName/SourceStateEventData.cs:  -> abc0df6e0020246e40364fe07cea54d6
+  custom:scripting/monoscript/fileName/DistorterSphere.cs:  -> 5c28df83b52cf7ed3dca69a409986248
+  custom:scripting/monoscript/fileName/ProjectPreferencesInspector.cs:  -> 81bb3876c90c8ecbb57d1327efff61d4
+  custom:scripting/monoscript/fileName/IMixedRealityTouchHandler.cs:  -> 3877b22a624df9df970847c4a4699b9c
+  custom:scripting/monoscript/fileName/UnityARCameraSettingsProfile.cs:  -> 1dcf3bcd0865e1ae691552c115cc4048
+  custom:scripting/monoscript/fileName/SceneUnderstandingObserverProfileInspector.cs:  -> ddacabec59aae4d26280e93ddca13c14
+  custom:scripting/monoscript/fileName/IMixedRealitySpatialAwarenessObservationHandler.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ScenePickPropertyDrawer.cs:  -> bea7caab42af0da33eee0e102d22dd28
+  custom:scripting/monoscript/fileName/DevicePortal.cs:  -> a6950ddfeea542c73acc2acd877f792b
+  custom:scripting/monoscript/fileName/MixedRealityProjectPreferences.cs:  -> e0ad37aeb355091a486d12d153bd9726
+  custom:scripting/monoscript/fileName/GltfScene.cs:  -> 2a0c7d72a035215b9d1f6b3c49669edd
+  custom:scripting/monoscript/fileName/EditorPreferences.cs:  -> 2b85cb6d35bd8752455b906018818674
+  custom:scripting/monoscript/fileName/IMixedRealitySpeechSystem.cs:  -> e0135ae2b56e2ec1c2b22ba197e6a1d6
+  custom:scripting/monoscript/fileName/GenericPrefabInstanceCreator.cs:  -> 0931a0d7b8d1ca45864488f974850f8e
+  custom:scripting/monoscript/fileName/BaseCameraSettingsProfile.cs:  -> 6608ff1d6d8d5a1654434ed383748fd0
+  custom:scripting/monoscript/fileName/WindowsMixedRealityXRSDKArticulatedHand.cs:  -> e13ec067897ba5bc975b341e9a4cb735
+  custom:scripting/monoscript/fileName/FocusDetails.cs:  -> 13d4ce7b281897cb7ef93959c05c92a1
+  custom:scripting/monoscript/fileName/MixedRealityStylesUtility.cs:  -> e36b59111bd3fd7e8d0a5c5165d78167
+  custom:scripting/monoscript/fileName/MixedRealitySceneSystemProfile.cs:  -> 652dc6450bc8ab698c10a3a1e7ffa804
+  custom:scripting/monoscript/fileName/IpAddressInfo.cs:  -> 18ee8b9f874f82eecc06a8cbd6a55af5
+  custom:scripting/monoscript/fileName/SceneAssetReferenceAttributeDrawer.cs:  -> 2a135f1d407dcd310292dd3cab16d80e
+  custom:scripting/monoscript/fileName/MixedRealityToolkitInspector.cs:  -> c72b4e8bf6db5241a4b9362cbef662b0
+  custom:scripting/monoscript/fileName/SimpleLineDataProvider.cs:  -> 9910a2f5bebd6da0816be2f4f65e2a9e
+  custom:scripting/monoscript/fileName/MixedRealitySpeechCommandsProfile.cs:  -> b3ffcb2b04e6b6c8a35148db41566428
+  custom:scripting/monoscript/fileName/SystemNumericsExtensions.cs:  -> a27946b928e6aec71e7b234cc8e7b330
+  custom:scripting/monoscript/fileName/EllipseLineDataProviderInspector.cs:  -> dfaef9ca035c594fddd12467ec985ffa
+  custom:scripting/monoscript/fileName/MixedRealityInputDataProviderConfiguration.cs:  -> 1b1b1b0c88c85d0bc80556e6716f8e83
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding:  -> 63c3422956b83dab8eb35df4e8b70fba
+  custom:scripting/monoscript/fileName/WindowsMixedRealityHandMeshProvider.cs:  -> ad995cab97166d0a7aa9571c0967ed2a
+  custom:scripting/monoscript/fileName/IMixedRealityCameraProjectionOverrideProvider.cs:  -> cac4703f98e26c55941804085a26ba3d
+  custom:scripting/monoscript/fileName/FileUtilities.cs:  -> ba4667d8d619aea2824cfbd525017fba
+  custom:scripting/monoscript/fileName/HandPoseUtils.cs:  -> c5cfc57a505a7830ab3e74d8e92ec6b7
+  custom:scripting/monoscript/fileName/MixedRealityServiceConfiguration.cs:  -> bb70f61675f53ae95b45963b35ce7383
+  custom:scripting/monoscript/fileName/DistorterGravity.cs:  -> 98591f0047eb9adaa667f0e3e5a793fb
+  custom:scripting/monoscript/fileName/MixedRealitySceneSystemEditorOperations.cs:  -> f101c194bba5cedf52e3932ce5b4b022
+  custom:scripting/monoscript/fileName/IMixedRealityCapabilityCheck.cs:  -> dda1c37c02c9a3fb4efc3806f95cdcaf
+  custom:scripting/monoscript/fileName/ConeCastGazeProvider.cs:  -> 078f9ba896187fc7a0aec5af7732228e
+  custom:scripting/monoscript/fileName/BaseGlobalInputSource.cs:  -> f80cad28a4adca227d5ca6bdbced7497
+  custom:scripting/monoscript/fileName/InputSystemGlobalListener.cs:  -> e30a3417baab6babc758ef6ee97d56b0
+  custom:scripting/monoscript/fileName/AnimationCurveExtensions.cs:  -> 8c4067a3e84ea2a25c471590725466a9
+  custom:scripting/monoscript/fileName/IMixedRealityOnDemandObserver.cs:  -> 0586c4db765ee4b1bf441ae19aef80bb
+  custom:scripting/monoscript/fileName/HandJointServiceInspector.cs:  -> f6bde51a31b2a8c1b5a13f67d59e6c3c
+  custom:scripting/monoscript/fileName/MixedRealityInputAction.cs:  -> f805cbf5304551bbad8c3d6d443c37d0
+  custom:scripting/monoscript/fileName/BaseWindowsMixedRealityXRSDKSource.cs:  -> dad9257fb4f533f0229e3001744f2c0f
+  custom:scripting/monoscript/fileName/MouseRotationProvider.cs:  -> 5510441f42a6eb7e9a12209b62b28a93
+  custom:scripting/monoscript/fileName/FieldSearchResult.cs:  -> 1801406af0305cf5c1801abe7760e1a6
+  custom:scripting/monoscript/fileName/GltfImage.cs:  -> f7312ce30170163a11e5b4f671517313
+  custom:scripting/monoscript/fileName/SimpleLineDataProviderInspector.cs:  -> a711df82477bf6530ad7fd357a0054bb
+  custom:scripting/monoscript/fileName/IMixedRealityEventHandler.cs:  -> 9790019d209a13dec7d946c05b625fd8
+  custom:scripting/monoscript/fileName/RoomFileSerializer.cs:  -> 49d0c51aafe3f1be505868b687cd691b
+  custom:scripting/monoscript/fileName/SpeechKeywordPropertyDrawer.cs:  -> bb3d54c251467b39071b60802a478acc
+  custom:scripting/monoscript/fileName/GltfExtension.cs:  -> aeabfa2fdfccf8ff692964fe9153bb99
+  custom:scripting/monoscript/fileName/VisualProfilerControl.cs:  -> a0c98213957d6ced3dbb8aecc6da8f60
+  custom:scripting/monoscript/fileName/GltfNormalTextureInfo.cs:  -> ef9377456b05d1183b0c58581f7e3fa7
+  custom:scripting/monoscript/fileName/IMixedRealityServiceRegistrar.cs:  -> bd0ba1db48a9f1a8861380370f8a4207
+  custom:scripting/monoscript/fileName/ManipulationProximityFlags.cs:  -> 85d84f2e722fa7998a10dc0dbd047f18
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Services.InputAnimation:  -> 4c5ced731998f75549360c532b305283
+  custom:scripting/monoscript/fileName/OculusTouchControllerDefinition.cs:  -> 243cadc7b019f480ab830be81e7cf6f4
+  custom:scripting/monoscript/fileName/MixedRealityProjectConfiguratorWindow.cs:  -> 5d6b518d9610bbf8abaa2dfda2faf7d5
+  custom:scripting/monoscript/fileName/WindowsMixedRealityCameraSettingsProfile.cs:  -> cb316e111ced7a7a16bb84ecde3264c3
+  custom:scripting/monoscript/fileName/GltfMeshPrimitive.cs:  -> 9105b1dfc7f044e3959bd4fed43b804e
+  custom:scripting/monoscript/fileName/IMixedRealityBaseInputHandler.cs:  -> 71888ca9fc927fe13c6bc3125002caea
+  custom:scripting/monoscript/fileName/UnityJoystickManager.cs:  -> 2fe3c7b2c878e347570813a085d68dae
+  custom:scripting/monoscript/fileName/SourcePoseEventData.cs:  -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/MixedRealityPointerProfileInspector.cs:  -> 831859692d74a65e238e03248fe8b0bd
+  custom:scripting/monoscript/fileName/IMixedRealityFocusProvider.cs:  -> 4130201c679c7d163ae3af7e431a16de
+  custom:scripting/monoscript/fileName/ControllerInputActionOptions.cs:  -> fc5745bc62d97de673245bb4d22076bc
+  custom:scripting/monoscript/fileName/MixedRealityPlayspace.cs:  -> a1f7994052ed4457577f9a7ae42283ce
+  custom:scripting/monoscript/fileName/IWindowsMixedRealityUtilitiesProvider.cs:  -> b1ce1f87d596d0f3c24652930292055c
+  custom:scripting/monoscript/fileName/MixedRealityInteractionMapping.cs:  -> edd73dad61e8baa842568ab1e60cf5d8
+  custom:scripting/monoscript/fileName/BaseCoreSystem.cs:  -> 4cd40d0eceef955147f5e78563fad379
+  custom:scripting/monoscript/fileName/IMigrationHandler.cs:  -> d17f6980bfcc187d6e1158792db1da8c
+  custom:scripting/monoscript/fileName/ScenePickAttribute.cs:  -> 962114194fc73bddb3bb9770bb3cc3ea
+  custom:scripting/monoscript/fileName/MixedRealityControllerVisualizationProfileInspector.cs:  -> fd2e6c39cdef1d78b064c9cc5362361e
+  custom:scripting/monoscript/fileName/ApplicationInfo.cs:  -> ca3d376d65cd28e1af0dacb2cbb9edff
+  custom:scripting/monoscript/fileName/AvailableWiFiNetworks.cs:  -> a9ba4da11a81fdda097792f6269bc2ad
+  custom:scripting/monoscript/fileName/DistorterBulge.cs:  -> 90ccfbc9963d4ce3fed2022e170574a8
+  custom:scripting/monoscript/fileName/BaseRayStabilizer.cs:  -> d163f9f990b45bfe8a702557bff17a76
+  custom:scripting/monoscript/fileName/InputManagerAxis.cs:  -> 0bb2d7508341f3e789cbbc967fdf370c
+  custom:scripting/monoscript/fileName/FloatExtensions.cs:  -> e1dd309fb31242e7cd52d50e9d87d8f7
+  custom:scripting/monoscript/fileName/MixedRealitySpeechCommandsProfileInspector.cs:  -> b4295699df2fa3679919b7f8bcacb8a0
+  custom:scripting/monoscript/fileName/UnityARCameraSettings.cs:  -> 3461799e50cdc49eaecf869151c41f0a
+  custom:scripting/monoscript/fileName/ProcessResult.cs:  -> 0041eeafa83dcc0397b46b56e78ae4c3
+  custom:scripting/monoscript/fileName/GlbAssetImporter.cs:  -> 76ed45828d4f0f89c43e093d47718192
+  custom:scripting/monoscript/fileName/MixedRealityInputActionRulesProfile.cs:  -> 92b72937ccbbba75a688c442967c4c64
+  custom:scripting/monoscript/fileName/IMixedRealityGazeProviderHeadOverride.cs:  -> c738c2b5b7951c4dc202b26abe2244ed
+  custom:scripting/monoscript/fileName/PhysicsLayerAttributeDrawer.cs:  -> 68fb0903bdd636a95b3ff0b0e2bf6db4
+  custom:scripting/monoscript/fileName/SpatialObjectMeshObserver.cs:  -> a6189978d23765737632c94333ccddba
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor:  -> 68c3de24e2c81f6462785218ffdd2c69
+  custom:scripting/monoscript/fileName/ArticulatedHandDefinition.cs:  -> 1196aea52b99e1b51a99c2572532f373
+  custom:scripting/monoscript/fileName/MixedRealityInputActionRulesInspector.cs:  -> b0a2b3e9ca0d55f37bcfcbb614baee08
+  custom:scripting/monoscript/fileName/XRSDKDeviceManager.cs:  -> 2ca7019636f3393345b3c9eee0bfc64f
+  custom:scripting/monoscript/fileName/GltfProperty.cs:  -> efabcb152810d6a09e172cdaf00bc316
+  custom:scripting/monoscript/fileName/InputActionRuleVectorAxis.cs:  -> dad57ef8b0ffc39d2845a79fbf91f5d2
+  custom:scripting/monoscript/fileName/MixedRealityControllerMappingProfileInspector.cs:  -> 1798db3a45ac5a53423e1bf2a89e2c8b
+  custom:scripting/monoscript/fileName/MixedRealityDiagnosticsSystem.cs:  -> a3db49b57e839020d772987062005fb7
+  custom:scripting/monoscript/fileName/OculusRemoteControllerDefinition.cs:  -> eb70a15d7e013112c48cb65a672d70b6
+  custom:scripting/monoscript/fileName/IMixedRealityHandMeshHandler.cs:  -> a621308c4f4c0eb7f59dd6493d6d72a3
+  custom:scripting/monoscript/fileName/OpenXREyeGazeDataProvider.cs:  -> b94abad67793590f4d90b18779b9adff
+  custom:scripting/monoscript/fileName/SimulatedHandDataProvider.cs:  -> 7c71634c21f3758d5de557b49b00b42a
+  custom:scripting/monoscript/fileName/BaseHandVisualizer.cs:  -> de58dc83d0c2fd079dc7a077fc1e3183
+  custom:scripting/monoscript/fileName/IMixedRealityGestureHandler.cs:  -> 1585f71e76894acfd5a54a238ff5bea7
+  custom:scripting/monoscript/fileName/BaseWindowsMixedRealityCameraSettings.cs:  -> 4219c169450033925bc53057cade39ba
+  custom:scripting/monoscript/fileName/MaintainBorderLightWidth.cs:  -> 154bd9a187c11bd1ac502baacbd317ae
+  custom:scripting/precompiled-assembly-types:Microsoft.MixedReality.Toolkit.Providers.OpenXR.Editor:  -> dbdb198e4c907b6e82579abb554e4bcb
+  custom:scripting/monoscript/fileName/IMixedRealityControllerVisualizer.cs:  -> 5052cb36691e4fa39a16871293fdc896
+  custom:scripting/monoscript/fileName/MixedRealitySpatialAwarenessMeshObserverProfileInspector.cs:  -> 639d21a59c7ece4881d7df4a4c3b7010
+  custom:scripting/monoscript/fileName/MeshLineRenderer.cs:  -> a1b331f57c144af6921492af6ddf8016
+  custom:scripting/monoscript/fileName/SimpleHandDefinition.cs:  -> 2a720b6e7dc5bd4655e16de5368813c3
+========================================================================
+Received Import Request.
+  Time since last request: 61290.461815 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityBoundaryVisualizationProfile.asset
+  artifactKey: Guid(6d28cce596b44bd3897ca86f8b24e076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityBoundaryVisualizationProfile.asset using Guid(6d28cce596b44bd3897ca86f8b24e076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5118e4b2583cc53dfc97652d71d1b3b') in 0.004587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityInputActionsProfile.asset
+  artifactKey: Guid(723eb97b02944311b92861f473eee53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityInputActionsProfile.asset using Guid(723eb97b02944311b92861f473eee53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88b5d83e9b4df1e5d042c698018e616') in 0.001276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityInputSystemProfile.asset
+  artifactKey: Guid(ad2080e8e71c35f4e8bcde94fa68f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityInputSystemProfile.asset using Guid(ad2080e8e71c35f4e8bcde94fa68f098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0e55bc4505259bacc7d13d6820c058') in 0.001463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealitySceneSystemProfile.asset
+  artifactKey: Guid(069efa41032a317409790a6a08435311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealitySceneSystemProfile.asset using Guid(069efa41032a317409790a6a08435311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7421794a0109ea428753d94d8a136fe0') in 0.001612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealitySpeechCommandsProfile.asset
+  artifactKey: Guid(e8d0393e66374dae9646851a57dc6bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealitySpeechCommandsProfile.asset using Guid(e8d0393e66374dae9646851a57dc6bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b67f8c37d308c153096d9ad68e59d2') in 0.001534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/Providers/WindowsMixedReality/Shared/Profiles/DefaultWindowsMixedRealityCameraSettingsProfile.asset
+  artifactKey: Guid(b8be5b71c8e0a254c83b691d62a79ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/Providers/WindowsMixedReality/Shared/Profiles/DefaultWindowsMixedRealityCameraSettingsProfile.asset using Guid(b8be5b71c8e0a254c83b691d62a79ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a90b63f52133cd9f541d5ae0a62180a') in 0.001421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007657 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityControllerMappingProfile.asset
+  artifactKey: Guid(39ded1fd0711a0c448413d0e1ec4f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityControllerMappingProfile.asset using Guid(39ded1fd0711a0c448413d0e1ec4f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141afa9827db6f55fa74380ffa75b1ac') in 0.006643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealitySpatialAwarenessSystemProfile.asset
+  artifactKey: Guid(97da727944a3d7b4caf42d2273271a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealitySpatialAwarenessSystemProfile.asset using Guid(97da727944a3d7b4caf42d2273271a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8471d272fd1aaa5e458818bcf52b3651') in 0.001323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010277 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityDiagnosticsProfile.asset
+  artifactKey: Guid(478436bd1083882479a52d067e98e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityDiagnosticsProfile.asset using Guid(478436bd1083882479a52d067e98e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e389d0e0e46ff2b0a443b15c2088f65') in 0.001909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001345 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityRegisteredServiceProvidersProfile.asset
+  artifactKey: Guid(efbaf6ea540c69f4fb75415a5d145a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityRegisteredServiceProvidersProfile.asset using Guid(efbaf6ea540c69f4fb75415a5d145a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87206190dc5b12dac1a40d89ddc41f3') in 0.001315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011270 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityGesturesProfile.asset
+  artifactKey: Guid(bd7829a9b29409045a745b5a18299291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityGesturesProfile.asset using Guid(bd7829a9b29409045a745b5a18299291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08bcf188390e181f501d5b804dea5db') in 0.001679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014233 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityInputRecordingProfile.asset
+  artifactKey: Guid(d0f5a7f6d1f9f0b4cb6eb35c797a0f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Profiles/DefaultMixedRealityInputRecordingProfile.asset using Guid(d0f5a7f6d1f9f0b4cb6eb35c797a0f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fbe1e6933f15ffa0a5c8ea00fb7f99') in 0.001175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.812431 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/Core/Interfaces/TeleportSystem/Handlers/IMixedRealityTeleportHandler.cs
+  artifactKey: Guid(396fb22a75ed49ccae18204871da22c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/Core/Interfaces/TeleportSystem/Handlers/IMixedRealityTeleportHandler.cs using Guid(396fb22a75ed49ccae18204871da22c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3739d5e050372afa4ecc35fdd7b1b7c9') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.122267 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/Core/Definitions/MixedRealityToolkitConfigurationProfile.cs
+  artifactKey: Guid(7612acbc1a4a4ed0afa5f4ccbe42bee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/Core/Definitions/MixedRealityToolkitConfigurationProfile.cs using Guid(7612acbc1a4a4ed0afa5f4ccbe42bee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a35c65e04bfba0bd669e493ad51d1f') in 0.000590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 48.801597 seconds.
+  path: Assets/MRTK.Tutorials.AzureSpatialAnchors/Prefabs/ButtonParent.prefab
+  artifactKey: Guid(5431ca14125da904d903da32d7da65e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.AzureSpatialAnchors/Prefabs/ButtonParent.prefab using Guid(5431ca14125da904d903da32d7da65e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dae83ff033c3657e4ccf7d0ecd1e44d') in 0.663942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 941
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/Cube.prefab
+  artifactKey: Guid(fb1b600dc94c3954099cc101e25ee744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/Cube.prefab using Guid(fb1b600dc94c3954099cc101e25ee744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7942036d40da2694e7174436b55973a7') in 0.032050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Prefabs/CoffeeCup.prefab
+  artifactKey: Guid(88841e078c6b4134299b7c4150581b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Prefabs/CoffeeCup.prefab using Guid(88841e078c6b4134299b7c4150581b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578b68259c8af3988aa1303cdbad3863') in 0.012971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Models/Model_Platonic.fbx
+  artifactKey: Guid(5942fa356be284c4a8d1d231519a7581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Models/Model_Platonic.fbx using Guid(5942fa356be284c4a8d1d231519a7581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f44422ebc049e8011d781212d91260') in 0.033814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Models/Model_PushButton.fbx
+  artifactKey: Guid(5308c0eb5c6ed4647b3797671dc2e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Models/Model_PushButton.fbx using Guid(5308c0eb5c6ed4647b3797671dc2e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cec4f8d1f6bc15a5aa5f78406a0b0a') in 0.031672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK.Tutorials.GettingStarted/Models/Model_Octa.fbx
+  artifactKey: Guid(1e23ec24c22068b4cbf47737c35e277b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.GettingStarted/Models/Model_Octa.fbx using Guid(1e23ec24c22068b4cbf47737c35e277b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4989ebea0b2f0a61ac61f2c4d92ad8c0') in 0.020481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK.Tutorials.AzureSpatialAnchors/Prefabs/Instructions.prefab
+  artifactKey: Guid(4b8cf9b017b6e044589323100e7bb98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK.Tutorials.AzureSpatialAnchors/Prefabs/Instructions.prefab using Guid(4b8cf9b017b6e044589323100e7bb98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4412b2be3cd95ad0a1b8bd64d37469c7') in 0.048615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
