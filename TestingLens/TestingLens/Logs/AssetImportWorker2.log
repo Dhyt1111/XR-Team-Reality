@@ -15,7 +15,7 @@ C:/Users/User/Desktop/NTU Notes/sc2006/XR-Team-Reality/TestingLens/TestingLens
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-65225
+64317
 Successfully changed project path to: C:/Users/User/Desktop/NTU Notes/sc2006/XR-Team-Reality/TestingLens/TestingLens
 C:/Users/User/Desktop/NTU Notes/sc2006/XR-Team-Reality/TestingLens/TestingLens
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/User/Desktop/NTU Notes/sc2006/XR-Team-Reality/TestingLens/TestingLens
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25868] Host "[IP] 192.168.0.175 [Port] 0 [Flags] 2 [Guid] 2497404044 [EditorId] 2497404044 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EIFGQAQP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19248] Host "[IP] 10.135.0.7 [Port] 0 [Flags] 2 [Guid] 3399216799 [EditorId] 3399216799 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EIFGQAQP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25868] Host "[IP] 192.168.0.175 [Port] 0 [Flags] 2 [Guid] 2497404044 [EditorId] 2497404044 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EIFGQAQP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19248] Host "[IP] 10.135.0.7 [Port] 0 [Flags] 2 [Guid] 3399216799 [EditorId] 3399216799 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EIFGQAQP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 80.94 ms, found 32 plugins.
-Preloading 9 native plugins for Editor in 30.57 ms.
+Refreshing native plugins compatible for Editor in 65.39 ms, found 32 plugins.
+Preloading 9 native plugins for Editor in 21.89 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Desktop/NTU Notes/sc2006/XR-Team-Reality/TestingLens/TestingLens/Assets
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.011421 seconds.
-- Loaded All Assemblies, in  0.593 seconds
+Registered in 0.009242 seconds.
+- Loaded All Assemblies, in  0.372 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.461 seconds
-Domain Reload Profiling: 1051ms
-	BeginReloadAssembly (201ms)
+- Finished resetting the current domain, in  0.294 seconds
+Domain Reload Profiling: 663ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (242ms)
-		LoadAssemblies (197ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (236ms)
-				TypeCache.ScanAssembly (211ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (462ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (294ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (366ms)
+		SetupLoadedEditorAssemblies (231ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (257ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 1051ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.068 seconds
-Refreshing native plugins compatible for Editor in 52.97 ms, found 32 plugins.
+- Loaded All Assemblies, in  0.915 seconds
+Refreshing native plugins compatible for Editor in 47.83 ms, found 32 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -130,8 +130,8 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 [XR] Time interace not found - delta time prediction disabled.
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][02:33:32.310493][tid:650c] OnPluginStarted UnityVersion=2022.3.20f1 OpenXRPluginVersion=1.11.0 MROpenXRPluginVersion=1.10.1.0 PartA_PrivTags=33554432
-[XR] [MROpenXR][Info   ][02:33:32.310493][tid:650c] OnPluginStarted UnityVersion=2022.3.20f1 OpenXRPluginVersion=1.11.0 MROpenXRPluginVersion=1.10.1.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][14:06:15.248500][tid:4b30] OnPluginStarted UnityVersion=2022.3.20f1 OpenXRPluginVersion=1.11.0 MROpenXRPluginVersion=1.10.1.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][14:06:15.248500][tid:4b30] OnPluginStarted UnityVersion=2022.3.20f1 OpenXRPluginVersion=1.11.0 MROpenXRPluginVersion=1.10.1.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -139,47 +139,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.112 seconds
-Domain Reload Profiling: 2169ms
-	BeginReloadAssembly (169ms)
+- Finished resetting the current domain, in  1.139 seconds
+Domain Reload Profiling: 2046ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (786ms)
-		LoadAssemblies (536ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (648ms)
+		LoadAssemblies (422ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (345ms)
-			TypeCache.Refresh (278ms)
-				TypeCache.ScanAssembly (248ms)
-			ScanForSourceGeneratedMonoScriptInfo (48ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1112ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1139ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (894ms)
+		SetupLoadedEditorAssemblies (910ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (666ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (685ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 60.59 ms, found 32 plugins.
-Preloading 9 native plugins for Editor in 0.49 ms.
+Refreshing native plugins compatible for Editor in 69.54 ms, found 32 plugins.
+Preloading 9 native plugins for Editor in 0.73 ms.
 Unloading 6600 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 194 unused Assets / (1.3 MB). Loaded Objects now: 6975.
-Memory consumption went from 225.3 MB to 224.0 MB.
-Total: 4.986400 ms (FindLiveObjects: 0.558500 ms CreateObjectMapping: 0.224600 ms MarkObjects: 3.455600 ms  DeleteObjects: 0.745700 ms)
+Unloading 194 unused Assets / (1.3 MB). Loaded Objects now: 6977.
+Memory consumption went from 225.5 MB to 224.2 MB.
+Total: 4.951600 ms (FindLiveObjects: 0.579200 ms CreateObjectMapping: 0.215400 ms MarkObjects: 3.404200 ms  DeleteObjects: 0.751400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -195,51 +195,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 169714.517428 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/ToggleButton.prefab
-  artifactKey: Guid(51cc6641d88b49d46bd38572540efe6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/ToggleButton.prefab using Guid(51cc6641d88b49d46bd38572540efe6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c88b9544b2db18896d3fcf5046bb4f') in 0.186850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 79
-========================================================================
-Received Import Request.
-  Time since last request: 22.990608 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/States
-  artifactKey: Guid(fdc33d46c1014a143a37c5a7cdce7492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/States using Guid(fdc33d46c1014a143a37c5a7cdce7492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43a68db599fc625fd684651132e4dd1') in 0.001464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.061797 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/States/DefaultInteractableStates.asset
-  artifactKey: Guid(5eac1712038236e4b8ffdb3893804fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/States/DefaultInteractableStates.asset using Guid(5eac1712038236e4b8ffdb3893804fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094c06d351cc569f02383d987be7b923') in 0.001171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.001509 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/States/FocusPressTouchGrabStates.asset
-  artifactKey: Guid(e51893c8eb7938e4ba43985af43c0f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/States/FocusPressTouchGrabStates.asset using Guid(e51893c8eb7938e4ba43985af43c0f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b317210d9b28e6efa013eb67ad8c7bce') in 0.001327 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.410443 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Models
-  artifactKey: Guid(fd72de110d1b746489b2c709309d8dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Models using Guid(fd72de110d1b746489b2c709309d8dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f66ccbc3c7a19c6b8ed32daaa73bc6') in 0.001528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.050982 seconds.
-  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Models/InteractableAssets.FBX
-  artifactKey: Guid(3d93f7219bba0634a9ee26865f9d6a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Models/InteractableAssets.FBX using Guid(3d93f7219bba0634a9ee26865f9d6a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952e969df71ce1da26afea8c1a9d29ef') in 0.150354 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 47
